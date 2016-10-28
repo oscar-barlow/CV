@@ -22,7 +22,7 @@ CMM @ CPWR
 iansyst
 
 ##Education
-*Makers Academy (November 2016 - February 2017)*
+**Makers Academy (November 2016 - February 2017)**
 12-week intensive development bootcamp, emphasing:
 
 * TDD
@@ -31,10 +31,10 @@ iansyst
 * Object-oriented design
 * Agile
 
-*MSc International Marketing - Birkbeck, University of London (September 2012 - June 2014)*
+**MSc International Marketing - Birkbeck, University of London (September 2012 - June 2014)**
 Part-time business masters degree, completed while working full time. Dissertation: brand development for tech(-enabled) startups. Grade: distinction.
 
-*BA (Hons) Philosophy - University of Nottingham (September 2005 - June 2008)*
+**BA (Hons) Philosophy - University of Nottingham (September 2005 - June 2008)**
 Broad degree in which I studied formal logic, ethics, several aspects of cultural theory.
 
 ##Hobbies
