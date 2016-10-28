@@ -9,7 +9,7 @@ WISHLIST:
 
 ## Projects
 | Title | Description | Technologies | Testing |
-| ------ ------------- -------------- -------- |
+| --- | --- | --- | --- |
 | [Go Fish!](https://github.com/oscar-barlow/go-fish) | Command-line version of the card game 'Go Fish!'. It will beat you. | Ruby | none, yet|
 
 ##Experience
