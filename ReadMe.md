@@ -21,7 +21,7 @@ As a teamworker I am sociable, approachable, and transparent.
 I'm very good at expressing myself verbally, both in written form and in person. I first developed these skills writing and editing content in my marketing career. Later, I developed them in film - where I worked with technical specialists like camera operators, in a high pressure environment.
 
 ### I do it right
-Having seen a few industries, something that impresses me about the tech world is how much attention has been given to learning new, smarter ways of doing things. With TDD, Agile, Lean, and Customer Discovery we can make sure we build only what we need, and make it rock solid to boot.
+Having seen a few industries, something that impresses me about the tech world is how much attention has been given to learning new, smallerarter ways of doing things. With TDD, Agile, Lean, and Customer Discovery we can make sure we build only what we need, and make it rock solid to boot.
 
 ### I can 
 **TECH SKILLS WISHLIST:**
