@@ -6,7 +6,7 @@
 ##Intro
 I'm a junior developer with a somewhat peripatetic career to date: I studied philosophy, had a career in marketing, and then went into film before knuckling down to Makers Academy, Europe's   leading web development bootcamp.
 
-Through my previous careers I learned a few things about myself: I seek variety in my work. I need to create things. I'm resilient, purpose-driven and hard-working. And I love people; I really want to others' perspectives, and I'm good at empathising and communicating (on this point: I speak near-as-dammit fluent French, and rudimentary German).
+Through my previous careers I learned a few things about myself: I seek variety in my work. I need to create things. I'm resilient, purpose-driven and hard-working. And I love people; I really want to understand others' perspectives, and I'm good at empathising and communicating (on this point: I speak near-as-dammit fluent French, and rudimentary German).
 
 I'm seeking a full stack role in a web development agency in London, where I can grow my skills in a variety of domains, ship beautiful code, and help create cool stuff.
 
@@ -21,7 +21,7 @@ As a teamworker I am sociable, approachable, and transparent.
 I'm very good at expressing myself verbally, both in written form and in person. I first developed these skills writing and editing content in my marketing career. Later, I developed them in film - where I worked with technical specialists like camera operators, in a high pressure environment.
 
 ### I do it right
-Having seen a few industries, something that impresses me about the tech world is how much attention has been given to learning new, smallerarter ways of doing things. With TDD, Agile, Lean, and Customer Discovery we can make sure we build only what we need, and make it rock solid to boot.
+Having seen a few industries, something that impresses me about the tech world is how much attention has been given to developing smarter ways of doing things. With TDD, Agile, Lean, and Customer Discovery we can make sure we build only what we need, and make it rock solid to boot.
 
 ### I can 
 **TECH SKILLS WISHLIST:**
