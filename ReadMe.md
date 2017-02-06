@@ -1,41 +1,43 @@
 # Oscar Barlow
-**Junior Developer for Hire**
+**Junior Developer for Hire. Seeking full stack role.**
 
-[Intro](##Intro) | [Skills](##skills) | [Projects](##Projects) | [Experience](##Experience)| [Education](##Education) | [Hobbies and Interests](##Hobbies)
+[Intro](## Intro) | [Blog](## Blog) | [Skills](## Skills) | [Projects](## Projects) | [Experience](## Experience) | [Education](## Education) | [Hobbies and Interests](## Hobbies)
 
-##Intro
-I'm a junior developer with a somewhat peripatetic career to date: I studied philosophy, had a career in marketing, and then went into film before knuckling down to Makers Academy, Europe's   leading web development bootcamp.
+## Intro
+I'm a junior developer looking for a full stack role. I invite you to check out my [projects](##Projects) to gauge my coding abilities; I also have a bunch of soft skills that will make me an asset to your team. Beyond this, I have previous professional experience I can draw upon.
 
-Through my previous careers I learned a few things about myself: I seek variety in my work. I need to create things. I'm resilient, purpose-driven and hard-working. And I love people; I really want to understand others' perspectives, and I'm good at empathising and communicating (on this point: I speak near-as-dammit fluent French, and rudimentary German).
+I'm looking to join an exciting, growing business that will provide me with opportunities to grow my skills. I'd love to be part of a team more experienced colleagues - I'll relish the chance to learn everything I can from them.
 
-I'm seeking a full stack role in a web development agency in London, where I can grow my skills in a variety of domains, ship beautiful code, and help create cool stuff.
+## Blog
+You're interested in my thoughts? How charming! Read my [blog](https://medium.com/@oscarbarlow) (Medium).
 
-##Skills
+## Skills
 
 ### I'm good with people
 I'm good at listening to and understanding people - often, I will summarise what a person has just said to me and get the enthusiastic response "Yes, that's exactly it!"
 
 As a teamworker I am sociable, approachable, and transparent.
 
-### I express myself clearly
-I'm very good at expressing myself verbally, both in written form and in person. I first developed these skills writing and editing content in my marketing career. Later, I developed them in film - where I worked with technical specialists like camera operators, in a high pressure environment.
+### I focus and take small, solid steps
+My experience so far suggests that the best way for me to get into a 'flow' state is to divide up my work into tiny little chunks - to make progress in small, highly-focused steps. See my commit history for examples.
 
-### I do it right
-Having seen a few industries, something that impresses me about the tech world is how much attention has been given to developing smarter ways of doing things. With TDD, Agile, Lean, and Customer Discovery we can make sure we build only what we need, and make it rock solid to boot.
+Test-driven development - which I _love_ - is a natural complement to this way of thinking.
 
-### I can 
-**TECH SKILLS WISHLIST:**
+## I learn fast
+One of the things that excites me about coding is that it's such a deep domain. I'll never run out of things to learn. Hooray!
 
-* Natural Language Processing
-* Machine Learning
-* Javascript frameworks e.g. Node, Angular, Ember
+In the course of Makers Academy I gained several ['learning to learn'](https://medium.com/@oscarbarlow/5-things-i-learned-in-the-first-half-of-makers-academy-7a51c67a6524#.jyn29mhm0) and [problem solving](https://medium.com/@oscarbarlow/my-coding-tools-so-far-5dbaaceb7007#.vej9ky8h1) skills that have made enabled me to quickly pick up a language, and enjoy using it. I've included the project timescales in my project portolio table, below, so you can get a sense of this.
 
 ## Projects
-| Title | Description | Technologies | Testing |
+| Name | Description | Technologies | Timeframe | Testing |
 | --- | --- | --- | --- |
-| [Go Fish!](https://github.com/oscar-barlow/go-fish) | Command-line version of the card game 'Go Fish!'. It will beat you. | Ruby | none, yet|
+| [ninetywineproblems](https://github.com/jimmygoldshine/Ninetywine-problems) | Team project: enter your food, get a wine recommendation | Ruby on Rails | 10 days | RSpec & Capybara |
+| [CloneStagram](https://github.com/oscar-barlow/instagram-challenge) | Instagram clone | Ruby on rails | 2 days | RSpec, Capybara |
+| [Thermostat](https://github.com/oscar-barlow/thermostat) | Single page thermostat app | JavaScript, jQuery | 4 days | Jasmine |
+| [Rock, Paper, Scissors](https://github.com/oscar-barlow/rps-challenge/) | Play the game in your browser | Ruby, Sinatra | 2 days | RSpec & Capybara |
+| [Tic Tac Toe](https://github.com/oscar-barlow/tic-tac-toe) | Noughts and crosses in your browser| NodeJS | 2 days | Mocha, Chai, simple-mock |
 
-##Experience
+## Experience
 
 **Freelance Filmmaker** (May 2014 - September 2016)
 
@@ -53,7 +55,7 @@ Having seen a few industries, something that impresses me about the tech world i
 
 * Relaunched a self-published software product, Oribi VeritySpell.
 
-##Education
+## Education
 **Makers Academy** (November 2016 - February 2017)
 
 * Europe's leading 12-week intensive development bootcamp.
@@ -66,5 +68,5 @@ Having seen a few industries, something that impresses me about the tech world i
 
 * Broad degree in which I studied formal logic, ethics, and cultural theory.
 
-##Hobbies
-In my spare time, I like to brew my own beer. Recipes and brewlogs at: [http://www.brewersfriend.com/homebrew/brewer/70943/oscar-barlow](http://www.brewersfriend.com/homebrew/brewer/70943/oscar-barlow)
+## Hobbies
+In my spare time, I like to brew my own beer. Recipes and brewlogs [here](http://www.brewersfriend.com/homebrew/brewer/70943/oscar-barlow).
