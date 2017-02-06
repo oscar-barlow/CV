@@ -1,7 +1,7 @@
 # Oscar Barlow
 **Junior Developer for Hire. Seeking a full stack role in London.**
 
-[Intro](#Intro) | [Blog](#Blog) | [Skills](#Skills) | [Projects](#Projects) | [Experience](#Experience) | [Education](#Education) | [Hobbies](#Hobbies)
+[Intro](#intro) | [Blog](bBlog) | [Skills](#skills) | [Projects](#projects) | [Experience](#experience) | [Education](#education) | [Hobbies](#hobbies)
 
 ##Intro
 I'm a junior developer looking for a full stack role. I invite you to check out my [projects](##Projects) to gauge my coding abilities; I also have a bunch of soft skills that will make me an asset to your team. Beyond this, I have previous professional experience I can draw upon.
@@ -29,6 +29,7 @@ One of the things that excites me about coding is that it's such a deep domain. 
 In the course of Makers Academy I gained several ['learning to learn'](https://medium.com/@oscarbarlow/5-things-i-learned-in-the-first-half-of-makers-academy-7a51c67a6524#.jyn29mhm0) and [problem solving](https://medium.com/@oscarbarlow/my-coding-tools-so-far-5dbaaceb7007#.vej9ky8h1) skills that have made enabled me to quickly pick up a language, and enjoy using it. I've included the project timescales in my project portolio table, below, so you can get a sense of this.
 
 ##Projects
+
 | Name | Description | Technologies | Timeframe | Testing |
 | --- | --- | --- | --- |
 | [ninetywineproblems](https://github.com/jimmygoldshine/Ninetywine-problems) | Team project: enter your food, get a wine recommendation | Ruby on Rails | 10 days | RSpec & Capybara |
