@@ -1,7 +1,7 @@
 # Oscar Barlow
 **Junior Developer for Hire. Seeking a full stack role in London.**
 
-[Intro](#intro) | [Blog](bBlog) | [Skills](#skills) | [Projects](#projects) | [Experience](#experience) | [Education](#education) | [Hobbies](#hobbies)
+[Intro](#intro) | [Blog](#blog) | [Skills](#skills) | [Projects](#projects) | [Experience](#experience) | [Education](#education) | [Hobbies](#hobbies)
 
 ##Intro
 I'm a junior developer looking for a full stack role. I invite you to check out my [projects](##Projects) to gauge my coding abilities; I also have a bunch of soft skills that will make me an asset to your team. Beyond this, I have previous professional experience I can draw upon.
