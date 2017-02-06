@@ -1,17 +1,17 @@
 # Oscar Barlow
 **Junior Developer for Hire. Seeking full stack role.**
 
-[Intro](## Intro) | [Blog](## Blog) | [Skills](## Skills) | [Projects](## Projects) | [Experience](## Experience) | [Education](## Education) | [Hobbies and Interests](## Hobbies)
+[Intro](##Intro) | [Blog](##Blog) | [Skills](##Skills) | [Projects](##Projects) | [Experience](##Experience) | [Education](##Education) | [Hobbies and Interests](##Hobbies)
 
-## Intro
+##Intro
 I'm a junior developer looking for a full stack role. I invite you to check out my [projects](##Projects) to gauge my coding abilities; I also have a bunch of soft skills that will make me an asset to your team. Beyond this, I have previous professional experience I can draw upon.
 
 I'm looking to join an exciting, growing business that will provide me with opportunities to grow my skills. I'd love to be part of a team more experienced colleagues - I'll relish the chance to learn everything I can from them.
 
-## Blog
+##Blog
 You're interested in my thoughts? How charming! Read my [blog](https://medium.com/@oscarbarlow) (Medium).
 
-## Skills
+##Skills
 
 ### I'm good with people
 I'm good at listening to and understanding people - often, I will summarise what a person has just said to me and get the enthusiastic response "Yes, that's exactly it!"
@@ -28,7 +28,7 @@ One of the things that excites me about coding is that it's such a deep domain. 
 
 In the course of Makers Academy I gained several ['learning to learn'](https://medium.com/@oscarbarlow/5-things-i-learned-in-the-first-half-of-makers-academy-7a51c67a6524#.jyn29mhm0) and [problem solving](https://medium.com/@oscarbarlow/my-coding-tools-so-far-5dbaaceb7007#.vej9ky8h1) skills that have made enabled me to quickly pick up a language, and enjoy using it. I've included the project timescales in my project portolio table, below, so you can get a sense of this.
 
-## Projects
+##Projects
 | Name | Description | Technologies | Timeframe | Testing |
 | --- | --- | --- | --- |
 | [ninetywineproblems](https://github.com/jimmygoldshine/Ninetywine-problems) | Team project: enter your food, get a wine recommendation | Ruby on Rails | 10 days | RSpec & Capybara |
@@ -37,7 +37,7 @@ In the course of Makers Academy I gained several ['learning to learn'](https://m
 | [Rock, Paper, Scissors](https://github.com/oscar-barlow/rps-challenge/) | Play the game in your browser | Ruby, Sinatra | 2 days | RSpec & Capybara |
 | [Tic Tac Toe](https://github.com/oscar-barlow/tic-tac-toe) | Noughts and crosses in your browser| NodeJS | 2 days | Mocha, Chai, simple-mock |
 
-## Experience
+##Experience
 
 **Freelance Filmmaker** (May 2014 - September 2016)
 
@@ -55,7 +55,7 @@ In the course of Makers Academy I gained several ['learning to learn'](https://m
 
 * Relaunched a self-published software product, Oribi VeritySpell.
 
-## Education
+##Education
 **Makers Academy** (November 2016 - February 2017)
 
 * Europe's leading 12-week intensive development bootcamp.
@@ -68,5 +68,5 @@ In the course of Makers Academy I gained several ['learning to learn'](https://m
 
 * Broad degree in which I studied formal logic, ethics, and cultural theory.
 
-## Hobbies
+##Hobbies
 In my spare time, I like to brew my own beer. Recipes and brewlogs [here](http://www.brewersfriend.com/homebrew/brewer/70943/oscar-barlow).
