@@ -4,7 +4,7 @@
 [Intro](#intro) | [Blog](#blog) | [Skills](#skills) | [Projects](#projects) | [Experience](#experience) | [Education](#education) | [Hobbies](#hobbies)
 
 ##Intro
-I'm a junior developer looking for a full stack role. I invite you to check out my [projects](##Projects) to gauge my coding abilities; I also have a bunch of soft skills that will make me an asset to your team. Beyond this, I have previous professional experience I can draw upon.
+I'm a junior developer looking for a full stack role. I invite you to check out my [projects](##Projects) to gauge my coding abilities; I also have a bunch of soft skills that will make me an asset to your team.
 
 I'm looking to join an exciting, growing business that will provide me with opportunities to grow my skills. I'd love to be part of a team more experienced colleagues - I'll relish the chance to learn everything I can from them.
 
@@ -14,24 +14,22 @@ You're interested in my thoughts? How charming! Read my [blog](https://medium.co
 ##Skills
 
 ### I'm good with people
-I'm good at listening to and understanding people - often, I will summarise what a person has just said to me and get the enthusiastic response "Yes, that's exactly it!"
-
-As a teamworker I am sociable, approachable, and transparent.
+I'm good at listening to and understanding people - often, I will summarise what a person has just said to me and get the enthusiastic response "Yes, that's exactly it!" As a teamworker I am sociable, approachable, and transparent.
 
 ### I focus and take small, solid steps
-My experience so far suggests that the best way for me to get into a 'flow' state is to divide up my work into tiny little chunks - to make progress in small, highly-focused steps. See my commit history for examples.
-
-Test-driven development - which I _love_ - is a natural complement to this way of thinking.
+My experience so far suggests that the best way for me to get into a 'flow' state is to divide up my work into tiny little chunks - and make progress in small, tightly-focused steps. See my commit history for examples. Test-driven development - which I love - is a natural complement to this way of thinking.
 
 ### I learn fast
-One of the things that excites me about coding is that it's such a deep domain. I'll never run out of things to learn. Hooray!
+One of the things that excites me about coding is that it's such a deep field. I'll never run out of things to learn. Hooray!
 
-In the course of Makers Academy I gained several ['learning to learn'](https://medium.com/@oscarbarlow/5-things-i-learned-in-the-first-half-of-makers-academy-7a51c67a6524#.jyn29mhm0) and [problem solving](https://medium.com/@oscarbarlow/my-coding-tools-so-far-5dbaaceb7007#.vej9ky8h1) skills that have made enabled me to quickly pick up a language, and enjoy using it. I've included the project timescales in my project portolio table, below, so you can get a sense of this.
+In the course of Makers Academy I gained several ['learning to learn'](https://medium.com/@oscarbarlow/5-things-i-learned-in-the-first-half-of-makers-academy-7a51c67a6524#.jyn29mhm0) and [problem solving](https://medium.com/@oscarbarlow/my-coding-tools-so-far-5dbaaceb7007#.vej9ky8h1) skills which have enabled me to quickly pick up a language, and enjoy the learning process.
+
+I've included the project timescales in my project portfolio table, below, so you can get a sense of this.
 
 ##Projects
 
 | Name | Description | Technologies | Timeframe | Testing |
-| --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | [ninetywineproblems](https://github.com/jimmygoldshine/Ninetywine-problems) | Team project: enter your food, get a wine recommendation | Ruby on Rails | 10 days | RSpec & Capybara |
 | [CloneStagram](https://github.com/oscar-barlow/instagram-challenge) | Instagram clone | Ruby on rails | 2 days | RSpec, Capybara |
 | [Thermostat](https://github.com/oscar-barlow/thermostat) | Single page thermostat app | JavaScript, jQuery | 4 days | Jasmine |
