@@ -6,7 +6,7 @@
 ##Intro
 I'm a junior developer looking for a full stack role. I invite you to check out my [projects](##Projects) to gauge my coding abilities; I also have a bunch of soft skills that will make me an asset to your team.
 
-I'm looking to join an exciting, growing business that will provide me with opportunities to grow my skills. I'd love to be part of a team more experienced colleagues - I'll relish the chance to learn everything I can from them.
+I'm looking to join an exciting, growing business that will provide me with opportunities to grow my skills. I'd love to be part of a team with more experienced colleagues - I'll relish the chance to learn everything I can from them.
 
 ##Blog
 You're interested in my thoughts? How charming! Read my [blog](https://medium.com/@oscarbarlow) (Medium).
