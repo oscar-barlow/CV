@@ -54,7 +54,7 @@ Angular (4).
 
 * Relaunched a self-published software product, Oribi VeritySpell.
 
-##Education
+## Education
 **Makers Academy** (November 2016 - February 2017)
 
 * Europe's leading 12-week intensive development bootcamp.
@@ -67,5 +67,5 @@ Angular (4).
 
 * Broad degree in which I studied formal logic, ethics, and cultural theory.
 
-##Hobbies
+## Hobbies
 In my spare time I learn German, practice yoga, and I like to brew my own beer. Recipes and brewlogs [here](http://www.brewersfriend.com/homebrew/brewer/70943/oscar-barlow).
