@@ -1,9 +1,7 @@
 # Oscar Barlow
 
 ## Introduction
-I'm a junior developer looking for a full stack role. I invite you to check out my projects to gauge my coding abilities; I also have a bunch of soft skills that will make me an asset to your team.
-
-I'm looking to join an exciting, growing business that will provide me with opportunities to grow my skills. I'd love to be part of a team with more experienced colleagues - I'll relish the chance to learn everything I can from them.
+I'm a junior developer who has just finished a two-month consultancy contract with HSBC,  looking for a full stack role. I invite you to check out my projects to gauge my coding abilities; I also have a bunch of soft skills that will make me an asset to your team.
 
 ## Blog
 You're interested in my thoughts? How charming! Read my [blog](https://medium.com/@oscarbarlow) (Medium).
@@ -36,7 +34,9 @@ I've included timescales in my project portfolio table, below, so you can get a 
 ## Experience
 
 **Developer - Makers Academy (contracted to HSBC)** (April 2017 - June 2017)
-Delivered Java/Spring + Angular 
+Two-month consultancy contract - delivered an MVP of an internal tool for
+reconciling employee data from different sources. Learned Java, Spring, and
+Angular (4).
 
 **Freelance Filmmaker** (May 2014 - September 2016)
 
@@ -68,4 +68,4 @@ Delivered Java/Spring + Angular
 * Broad degree in which I studied formal logic, ethics, and cultural theory.
 
 ##Hobbies
-In my spare time, I like to brew my own beer. Recipes and brewlogs [here](http://www.brewersfriend.com/homebrew/brewer/70943/oscar-barlow).
+In my spare time I learn German, practice yoga, and I like to brew my own beer. Recipes and brewlogs [here](http://www.brewersfriend.com/homebrew/brewer/70943/oscar-barlow).
