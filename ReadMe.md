@@ -28,12 +28,15 @@ I've included timescales in my project portfolio table, below, so you can get a 
 | Name | Description | Technologies | Timeframe | Testing |
 | --- | --- | --- | --- | --- |
 | [ninetywineproblems](https://github.com/jimmygoldshine/Ninetywine-problems) | Team project: enter your food, get a wine recommendation | Ruby on Rails | 10 days | RSpec & Capybara |
-| [CloneStagram](https://github.com/oscar-barlow/instagram-challenge) | Instagram clone | Ruby on rails | 2 days | RSpec, Capybara |
+| [CloneStagram](https://github.com/oscar-barlow/instagram-challenge) | Instagram clone | Ruby on Rails | 2 days | RSpec, Capybara |
 | [Thermostat](https://github.com/oscar-barlow/thermostat) | Single page thermostat app | JavaScript, jQuery | 4 days | Jasmine |
 | [Rock, Paper, Scissors](https://github.com/oscar-barlow/rps-challenge/) | Play the game in your browser | Ruby, Sinatra | 2 days | RSpec & Capybara |
 | [Tic Tac Toe](https://github.com/oscar-barlow/tic-tac-toe) | Noughts and crosses in your browser| NodeJS | 2 days | Mocha, Chai, simple-mock |
 
 ## Experience
+
+**Developer - Makers Academy (contracted to HSBC)** (April 2017 - June 2017)
+Delivered Java/Spring + Angular 
 
 **Freelance Filmmaker** (May 2014 - September 2016)
 
