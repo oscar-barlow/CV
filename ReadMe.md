@@ -1,7 +1,7 @@
 # Oscar Barlow
 
 ## Introduction
-I'm a junior developer who has just finished a two-month consultancy contract with HSBC,  looking for a full stack role. I invite you to check out my projects to gauge my coding abilities; I also have a bunch of soft skills that will make me an asset to your team.
+I'm a junior developer who has just finished a two-month development consultancy contract with HSBC,  looking for my next full stack role. I invite you to check out my projects to gauge my coding abilities; I also have a bunch of soft skills that will make me an asset to your team.
 
 ## Blog
 You're interested in my thoughts? How charming! Read my [blog](https://medium.com/@oscarbarlow) (Medium).
