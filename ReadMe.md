@@ -1,17 +1,14 @@
 # Oscar Barlow
-**Junior Developer for Hire. Seeking a full stack role in London.**
 
-[Intro](#intro) | [Blog](#blog) | [Skills](#skills) | [Projects](#projects) | [Experience](#experience) | [Education](#education) | [Hobbies](#hobbies)
-
-##Intro
-I'm a junior developer looking for a full stack role. I invite you to check out my [projects](##Projects) to gauge my coding abilities; I also have a bunch of soft skills that will make me an asset to your team.
+## Introduction
+I'm a junior developer looking for a full stack role. I invite you to check out my projects to gauge my coding abilities; I also have a bunch of soft skills that will make me an asset to your team.
 
 I'm looking to join an exciting, growing business that will provide me with opportunities to grow my skills. I'd love to be part of a team with more experienced colleagues - I'll relish the chance to learn everything I can from them.
 
-##Blog
+## Blog
 You're interested in my thoughts? How charming! Read my [blog](https://medium.com/@oscarbarlow) (Medium).
 
-##Skills
+## Skills
 
 ### I'm good with people
 I'm good at listening to and understanding people - often, I will summarise what a person has just said to me and get the enthusiastic response "Yes, that's exactly it!" As a teamworker I am sociable, approachable, and transparent.
@@ -24,9 +21,9 @@ One of the things that excites me about coding is that it's such a deep field. I
 
 In the course of Makers Academy I gained several ['learning to learn'](https://medium.com/@oscarbarlow/5-things-i-learned-in-the-first-half-of-makers-academy-7a51c67a6524#.jyn29mhm0) and [problem solving](https://medium.com/@oscarbarlow/my-coding-tools-so-far-5dbaaceb7007#.vej9ky8h1) skills which have enabled me to quickly pick up a language, and enjoy the learning process.
 
-I've included the project timescales in my project portfolio table, below, so you can get a sense of this.
+I've included timescales in my project portfolio table, below, so you can get a sense of this.
 
-##Projects
+## Projects
 
 | Name | Description | Technologies | Timeframe | Testing |
 | --- | --- | --- | --- | --- |
@@ -36,7 +33,7 @@ I've included the project timescales in my project portfolio table, below, so yo
 | [Rock, Paper, Scissors](https://github.com/oscar-barlow/rps-challenge/) | Play the game in your browser | Ruby, Sinatra | 2 days | RSpec & Capybara |
 | [Tic Tac Toe](https://github.com/oscar-barlow/tic-tac-toe) | Noughts and crosses in your browser| NodeJS | 2 days | Mocha, Chai, simple-mock |
 
-##Experience
+## Experience
 
 **Freelance Filmmaker** (May 2014 - September 2016)
 
