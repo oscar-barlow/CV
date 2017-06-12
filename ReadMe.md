@@ -1,7 +1,9 @@
 # Oscar Barlow
 
 ## Introduction
-I'm a junior developer who has just finished a two-month development consultancy contract with HSBC,  looking for my next full stack role. I invite you to check out my projects to gauge my coding abilities; I also have a bunch of soft skills that will make me an asset to your team.
+I'm a junior developer who has just finished a two-month development consultancy contract with HSBC, in which I delivered a minimum-viable app for reconciling differing employee data held across internal systems. In this project I practiced TDD and pair-programmed practically every day, aiming to produce the cleanest and most reliable code possible, to make the app easy to extend in the future.
+
+I'm now looking for my next full stack role. I invite you to check out my projects to gauge my coding abilities. I also have a bunch of soft skills that will make me an asset to your team.
 
 ## Blog
 You're interested in my thoughts? How charming! Read my [blog](https://medium.com/@oscarbarlow) (Medium).
@@ -34,9 +36,13 @@ I've included timescales in my project portfolio table, below, so you can get a 
 ## Experience
 
 **Developer - Makers Academy (contracted to HSBC)** (April 2017 - June 2017)
-Two-month consultancy contract - delivered an MVP of an internal tool for
-reconciling employee data from different sources. Learned Java, Spring, and
-Angular (4).
+
+* Two-month consultancy contract - delivered an MVP of an internal tool for reconciling employee data from different sources.
+* Pair-programmed practically every day, and helped some of my colleagues to become more confident coders and pairers.
+* Learned Java, Spring, and Angular (4).
+* TDD'd with JUnit, Jasmine(Karma) and Protractor.
+* Demo'd to and clarified requirements with business stakeholders.
+
 
 **Freelance Filmmaker** (May 2014 - September 2016)
 
