@@ -35,6 +35,10 @@ I've included timescales in my project portfolio table, below, so you can get a 
 
 ## Experience
 
+**Associate Consultant - Infinity Works** (June 2017 - present)
+* Full stack role at a leading agile development consultancy, working in Java
+  and React.
+
 **Developer - Makers Academy (contracted to HSBC)** (April 2017 - June 2017)
 
 * Two-month consultancy contract - delivered an MVP of an internal tool for reconciling employee data from different sources.
