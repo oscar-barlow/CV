@@ -9,9 +9,9 @@ As a graduate of a coding bootcamp, I noticed that it was quite difficult for bo
 
 ### Consultant - Infinity Works 
 **June 2017 - present**
-* Part of a small team that built, launched, and supports [New Nectar](https://www.moneywise.co.uk/news/2018-04-05/sainburys-trials-new-nectar-scheme), a greenfield redevelopment of the loyalty programme operated by Sainsbury's supermarkets.
-* Liaised with marketing managers, UX and UI designers, and the product owner to understand business requirements and help find appropriate solutions.
+* Part of a small team that built, launched, and supports [New Nectar](https://www.moneywise.co.uk/news/2018-04-05/sainburys-trials-new-nectar-scheme), a greenfield redevelopment of the well-known loyalty programme operated by Sainsbury's supermarkets in the UK.
 * Midweight developer working in Java 8, Spring Boot 2, and ReactJS 16 with ES6 creating microservices deployed in Kubernetes in AWS, using Pact for contract testing and Circle for CI/CD.
+* Liaised with marketing managers, UX and UI designers, and the product owner to understand business requirements and help find appropriate solutions.
 * Co-architected the 'campaigns' part of the project.
 * Largely owned the interface with the data-science sister project to New Nectar, which consumed data from and provided inputs to New Nectar.
 * Mentored three other Infinity Works employees, and helped one progress from junior to midweight developer.
@@ -21,7 +21,7 @@ As a graduate of a coding bootcamp, I noticed that it was quite difficult for bo
 **April 2017 - June 2017**
 
 * Two-month consultancy contract - delivered an MVP of an internal tool for reconciling employee data from different sources.
-* Used Java 8 With Spring Boot 1.5 and AngularJS on the front end, deployed to Pivotal Cloud Foundry via Jenkins.
+* Used Java 8 With Spring Boot 1.5 and AngularJS 4 on the front end, deployed to Pivotal Cloud Foundry via Jenkins.
 * Pair-programmed practically every day, and helped some of my colleagues to become more confident coders and pairers.
 * Demo'd to and clarified requirements with business stakeholders.
 
