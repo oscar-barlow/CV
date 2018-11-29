@@ -1,52 +1,23 @@
 # Oscar Barlow
 
 ## Introduction
-I'm a junior developer who has just finished a two-month development consultancy contract with HSBC, in which I delivered a minimum-viable app for reconciling differing employee data held across internal systems. In this project I practiced TDD and pair-programmed practically every day, aiming to produce the cleanest and most reliable code possible, to make the app easy to extend in the future.
+I'm a consultant at [Infinity Works](https://www.infinityworks.com/) in London. I find out what problems my clients have, and then build neat little microservices (Kubernetes/AWS) with Java and ReactJS to solve them.
 
-I'm now looking for my next full stack role. I invite you to check out my projects to gauge my coding abilities. I also have a bunch of soft skills that will make me an asset to your team.
-
-## Blog
-You're interested in my thoughts? How charming! Read my [blog](https://medium.com/@oscarbarlow) (Medium).
-
-## Skills
-
-### I'm good with people
-I'm good at listening to and understanding people - often, I will summarise what a person has just said to me and get the enthusiastic response "Yes, that's exactly it!" As a teamworker I am sociable, approachable, and transparent.
-
-### I focus and take small, solid steps
-My experience so far suggests that the best way for me to get into a 'flow' state is to divide up my work into tiny little chunks - and make progress in small, tightly-focused steps. See my commit history for examples. Test-driven development - which I love - is a natural complement to this way of thinking.
-
-### I learn fast
-One of the things that excites me about coding is that it's such a deep field. I'll never run out of things to learn. Hooray!
-
-In the course of Makers Academy I gained several ['learning to learn'](https://medium.com/@oscarbarlow/5-things-i-learned-in-the-first-half-of-makers-academy-7a51c67a6524#.jyn29mhm0) and [problem solving](https://medium.com/@oscarbarlow/my-coding-tools-so-far-5dbaaceb7007#.vej9ky8h1) skills which have enabled me to quickly pick up a language, and enjoy the learning process.
-
-I've included timescales in my project portfolio table, below, so you can get a sense of this.
-
-## Projects
-
-| Name | Description | Technologies | Timeframe | Testing |
-| --- | --- | --- | --- | --- |
-| [ninetywineproblems](https://github.com/jimmygoldshine/Ninetywine-problems) | Team project: enter your food, get a wine recommendation | Ruby on Rails | 10 days | RSpec & Capybara |
-| [CloneStagram](https://github.com/oscar-barlow/instagram-challenge) | Instagram clone | Ruby on Rails | 2 days | RSpec, Capybara |
-| [Thermostat](https://github.com/oscar-barlow/thermostat) | Single page thermostat app | JavaScript, jQuery | 4 days | Jasmine |
-| [Rock, Paper, Scissors](https://github.com/oscar-barlow/rps-challenge/) | Play the game in your browser | Ruby, Sinatra | 2 days | RSpec & Capybara |
-| [Tic Tac Toe](https://github.com/oscar-barlow/tic-tac-toe) | Noughts and crosses in your browser| NodeJS | 2 days | Mocha, Chai, simple-mock |
+As a graduate of a coding bootcamp, I noticed that it was quite difficult for bootcamp grads to learn Java. So I wrote a [course](https://github.com/oscar-barlow/java-quickstart) to fix that.
 
 ## Experience
 
-**Associate Consultant - Infinity Works** (June 2017 - present)
-* Full stack role at a leading agile development consultancy, working in Java
-  and React.
+**Consultant - Infinity Works** (June 2017 - present)
+* Part of a small team that built, launched, and supports [New Nectar](https://www.moneywise.co.uk/news/2018-04-05/sainburys-trials-new-nectar-scheme).
+* Co-architected the 'campaigns' part of the project.
+* Mentored three other Infinity Works employees, and helped one progress from junior to midweight developer.
+* Initiated two 'communities of practice' within Infinity Works, dedicated to knowledge sharing about respectively front-end development and devops.
 
-**Developer - Makers Academy (contracted to HSBC)** (April 2017 - June 2017)
+**Junior Developer - Makers Academy/HSBC** (April 2017 - June 2017)
 
 * Two-month consultancy contract - delivered an MVP of an internal tool for reconciling employee data from different sources.
 * Pair-programmed practically every day, and helped some of my colleagues to become more confident coders and pairers.
-* Learned Java, Spring, and Angular (4).
-* TDD'd with JUnit, Jasmine(Karma) and Protractor.
 * Demo'd to and clarified requirements with business stakeholders.
-
 
 **Freelance Filmmaker** (May 2014 - September 2016)
 
@@ -78,4 +49,6 @@ I've included timescales in my project portfolio table, below, so you can get a 
 * Broad degree in which I studied formal logic, ethics, and cultural theory.
 
 ## Hobbies
-In my spare time I learn German, practice yoga, and I like to brew my own beer. Recipes and brewlogs [here](http://www.brewersfriend.com/homebrew/brewer/70943/oscar-barlow).
+In my spare time I learn German, practice yoga, and plan my next adventure abroad :airplane:
+
+I enjoy reading. You can see my public notes/reviews of books I've read on my [Goodreads profile](https://www.goodreads.com/user/show/88872855-oscar-barlow).
