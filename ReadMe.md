@@ -3,7 +3,7 @@
 ## Introduction
 I'm a consultant at [Infinity Works](https://www.infinityworks.com/) in London. I find out what problems my clients have, and then build neat little microservices (Kubernetes/AWS) with Java and ReactJS to solve them.
 
-As a graduate of a coding bootcamp, I noticed that it was quite difficult for bootcamp grads to learn Java. So I wrote a [course](https://github.com/oscar-barlow/java-quickstart) to fix that.
+As a graduate of a coding bootcamp, I noticed that it was quite difficult for bootcamp grads to learn Java. So I wrote a hands-on [course](https://github.com/oscar-barlow/java-quickstart) specifically aimed at bootcamp grads, to help them to learn Java, its tooling and its ecosystem quicker.
 
 ## Experience
 
@@ -62,6 +62,4 @@ As a graduate of a coding bootcamp, I noticed that it was quite difficult for bo
 * Broad degree in which I studied formal logic, ethics, and cultural theory.
 
 ## Hobbies
-In my spare time I learn German, practice yoga, and plan my next adventure abroad :airplane:
-
-I enjoy reading. You can see my public notes/reviews of books I've read on my [Goodreads profile](https://www.goodreads.com/user/show/88872855-oscar-barlow).
+In my spare time I learn German, practice yoga, and plan my next adventure abroad :airplane: I enjoy reading too - you can see my public notes/reviews of books I've read on my [Goodreads profile](https://www.goodreads.com/user/show/88872855-oscar-barlow).
