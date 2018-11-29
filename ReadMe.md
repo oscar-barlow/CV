@@ -27,17 +27,17 @@ As a graduate of a coding bootcamp, I noticed that it was quite difficult for bo
 
 * Directed a short documentary about contemporary dance. Wrote an advert for Aberlour whisky. Assistant Directed an X-Men prequel short.
 
-## Head of Marketing - New Bamboo (acquired by Thoughtbot)
+### Head of Marketing - New Bamboo (acquired by Thoughtbot)
 **May 2013 - April 2014**
 
 * Strategically repositioned the business prior to its acquisition.
 
-## EMEA Content Marketing Manager - Compuware APM
+### EMEA Content Marketing Manager - Compuware APM
 **May 2012 - April 2013**
 
 * Managed schedule of digital content and web events across Europe.
 
-##Marketing Executive - iansyst
+### Marketing Executive - iansyst
 **June 2009 - April 2011**
 
 * Relaunched a self-published software product, Oribi VeritySpell.
@@ -53,7 +53,7 @@ As a graduate of a coding bootcamp, I noticed that it was quite difficult for bo
 
 * Part-time business masters degree, completed while working full time. Dissertation: brand development for tech(-enabled) startups. Grade: distinction.
 
-## BA (Hons) Philosophy - University of Nottingham 
+### BA (Hons) Philosophy - University of Nottingham 
 **September 2005 - June 2008**
 
 * Broad degree in which I studied formal logic, ethics, and cultural theory.
