@@ -1,21 +1,27 @@
 # Oscar Barlow
 
 ## Introduction
-I'm a consultant at [Infinity Works](https://www.infinityworks.com/) in London. I find out what problems my clients have, and then build neat little microservices (Kubernetes/AWS) with Java and ReactJS to solve them.
+I'm a consultant at [Infinity Works](https://www.infinityworks.com/) in London, and an alumnus of [Makers Academy](https://makers.tech/) with previous careers in marketing and filmmaking. Consequently I have strong interpersonal and communication skills.
 
-As a graduate of a coding bootcamp, I noticed that it was quite difficult for bootcamp grads to learn Java. So I wrote a hands-on [course](https://github.com/oscar-barlow/java-quickstart) specifically aimed at bootcamp grads, to help them to learn Java, its tooling and its ecosystem quicker.
+I have experience with Java 8, Python 3, Javascript and ReactJS. My code is normally deployed via a CI tool such as Circle to AWS; I have used ECS, Lambda, EMR, and a self-managed Kubernetes instance for compute. For storage, I have used Posrgres on RDS, DynamoDB, ElasticSearch, and S3.
+
+At this stage in my career, I am interested in acquiring new skills in data engineering, and reinforcing my existing ones. My ideal next project would be a data-intensive application, working closely with an experienced lead who I can learn from, in addition to business stakeholders and data scientists.
 
 ## Experience
 
 ### Consultant - Infinity Works 
-**June 2017 - present**
-* Part of a small team that built, launched, and supports [New Nectar](https://www.moneywise.co.uk/news/2018-04-05/sainburys-trials-new-nectar-scheme), a greenfield redevelopment of the well-known loyalty programme operated by Sainsbury's supermarkets in the UK.
-* Midweight developer working in Java 8, Spring Boot 2, and ReactJS 16 with ES6 creating microservices deployed in Kubernetes in AWS, using Pact for contract testing and Circle for CI/CD.
-* Liaised with marketing managers, UX and UI designers, and the product owner to understand business requirements and help find appropriate solutions.
-* Co-architected the 'campaigns' part of the project.
+**Competitive Intelligence, January 2019 - present**
+
+* Led a small team to launch an internal competitive intelligence tool for Sainsbury's. An algorithm comparing competitor product ranges; users then validate the algorithm's suggestions, and purchasing managers can use this information in their negotiations.
+* Introduced continuous integration and continuous deployment, coached team members to write tests, migrated from legacy to cloud-native architecture.
+* Contributed data to Sainsbury's cloud-based enterprise data warehouse.
+
+**Loyalty Scheme, June 2017 - December 2018**
+
+* Prior to this, was part of a small team that built, launched, and supports [New Nectar](https://www.moneywise.co.uk/news/2018-04-05/sainburys-trials-new-nectar-scheme), a greenfield redevelopment of the well-known loyalty programme operated by Sainsbury's supermarkets in the UK.
 * Largely owned the interface with the data-science sister project to New Nectar, which consumed data from and provided inputs to New Nectar.
-* Mentored three other Infinity Works employees, and helped one progress from junior to midweight developer.
-* Initiated two 'communities of practice' within Infinity Works, dedicated to knowledge sharing about front-end development and devops respectively.
+* Mentored three other Infinity Works employees, and helped two progress from junior to midweight developer.
+* Organised regular meetups and coached speakers for two 'communities of practice' within Infinity Works, dedicated to knowledge sharing about DevOps, and Data Science & Engineering.
 
 ### Junior Developer - Makers Academy/HSBC
 **April 2017 - June 2017**
@@ -30,20 +36,12 @@ As a graduate of a coding bootcamp, I noticed that it was quite difficult for bo
 
 * Directed a short documentary about contemporary dance. Wrote an advert for Aberlour whisky. Assistant Directed an X-Men prequel short.
 
-### Head of Marketing - New Bamboo (acquired by Thoughtbot)
-**May 2013 - April 2014**
+### Marketing Manager - Various Companies
+**June 2009 - April 2014**
 
-* Strategically repositioned the business prior to its acquisition.
-
-### EMEA Content Marketing Manager - Compuware APM
-**May 2012 - April 2013**
-
-* Managed schedule of digital content and web events across Europe.
-
-### Marketing Executive - iansyst
-**June 2009 - April 2011**
-
-* Relaunched a self-published software product, Oribi VeritySpell.
+* Strategically repositioned a small web agency prior to its acquisition.
+* Managed schedule of digital content and web events across Europe for an enterprise software vendor.
+* Relaunched a self-published software product for people with specific learning difficulties, for a small software reseller/publisher.
 
 ## Education
 ### Makers Academy
@@ -62,4 +60,4 @@ As a graduate of a coding bootcamp, I noticed that it was quite difficult for bo
 * Broad degree in which I studied formal logic, ethics, and cultural theory.
 
 ## Hobbies
-In my spare time I learn German, practice yoga, and plan my next adventure abroad :airplane: I enjoy reading too - you can see my public notes/reviews of books I've read on my [Goodreads profile](https://www.goodreads.com/user/show/88872855-oscar-barlow).
+In my spare time I learn German, go hiking, and plan my next adventure abroad :airplane: I enjoy reading too - you can see my public notes and reviews of books I've read on my [Goodreads profile](https://www.goodreads.com/user/show/88872855-oscar-barlow).
