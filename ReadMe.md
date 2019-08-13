@@ -12,13 +12,15 @@ At this stage in my career, I am interested in acquiring new skills in data engi
 ### Consultant - Infinity Works 
 **Competitive Intelligence, January 2019 - present**
 
-* Led a small team to launch an internal competitive intelligence tool for Sainsbury's. An algorithm comparing competitor product ranges; users then validate the algorithm's suggestions, and purchasing managers can use this information in their negotiations.
+* Led a small team to launch an internal competitive intelligence tool for Sainsbury's. 
+* In this project, an algorithm makes predictions about which competitor products are equivalent with Sainsburys' products; users then review the algorithm's predictions. Purchasing managers can then use information about confirmed matches in their negotiations.
+* Went to production approximately 1 month after arriving on the project, launching to a small group of internal users.
 * Introduced continuous integration and continuous deployment, coached team members to write tests, migrated from legacy to cloud-native architecture.
-* Contributed data to Sainsbury's cloud-based enterprise data warehouse.
+* Worked with technical designers, enterprise architects, data scientists, and business stakeholders to produce meaningful schemas to produce meaningful data models in order to contribute data to Sainsburys' data warehouse.
 
 **Loyalty Scheme, June 2017 - December 2018**
 
-* Prior to this, was part of a small team that built, launched, and supports [New Nectar](https://www.moneywise.co.uk/news/2018-04-05/sainburys-trials-new-nectar-scheme), a greenfield redevelopment of the well-known loyalty programme operated by Sainsbury's supermarkets in the UK.
+* Prior to this, was part of a small team that built, launched, and supports [New Nectar](https://nectar.sainsburys.co.uk), a greenfield redevelopment of the well-known loyalty programme operated by Sainsbury's supermarkets in the UK.
 * Largely owned the interface with the data-science sister project to New Nectar, which consumed data from and provided inputs to New Nectar.
 * Mentored three other Infinity Works employees, and helped two progress from junior to midweight developer.
 * Organised regular meetups and coached speakers for two 'communities of practice' within Infinity Works, dedicated to knowledge sharing about DevOps, and Data Science & Engineering.
