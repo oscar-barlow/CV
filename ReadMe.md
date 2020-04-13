@@ -17,7 +17,11 @@ I blog at [oscarbarlow.com](oscarbarlow.com)
 ## Experience
 
 ### Senior Consultant - Infinity Works 
-**Competitive Intelligence, January 2019 - present**
+**Data Warehouse, November 2019 - present**
+* Architected and built pipelines from on-premise databases into Snowflake, as part of a £10m 2-year programme to integrate the client's gaming platform with the game brands belonging to the business that had recently acquired them. 
+* Coached my team in agile, cloud platform engineering, clean coding, and invested heavily in remote working practices as one team member was based in Australia.
+
+**Competitive Intelligence, January 2019 - November 2019**
 
 * Led a small team to launch an internal competitive intelligence tool for Sainsbury's, allowing purchasers to review how competitive their product lines are, and to negotiate more advantageous pricing with suppliers, based on recommendations from our algorithm.
 * Introduced continuous integration and continuous deployment, coached team members to write tests, migrated from legacy to cloud-native architecture.
