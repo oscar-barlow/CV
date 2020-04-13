@@ -1,12 +1,4 @@
-
-
- ██████╗ ███████╗ ██████╗ █████╗ ██████╗     ██████╗  █████╗ ██████╗ ██╗      ██████╗ ██╗    ██╗
-██╔═══██╗██╔════╝██╔════╝██╔══██╗██╔══██╗    ██╔══██╗██╔══██╗██╔══██╗██║     ██╔═══██╗██║    ██║
-██║   ██║███████╗██║     ███████║██████╔╝    ██████╔╝███████║██████╔╝██║     ██║   ██║██║ █╗ ██║
-██║   ██║╚════██║██║     ██╔══██║██╔══██╗    ██╔══██╗██╔══██║██╔══██╗██║     ██║   ██║██║███╗██║
-╚██████╔╝███████║╚██████╗██║  ██║██║  ██║    ██████╔╝██║  ██║██║  ██║███████╗╚██████╔╝╚███╔███╔╝
- ╚═════╝ ╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝    ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝ ╚═════╝  ╚══╝╚══╝
-
+# Oscar Barlow
 
 ## Introduction
 I'm a senior consultant at [Infinity Works](https://www.infinityworks.com/) in London, and an alumnus of [Makers Academy](https://makers.tech/). At Infinity Works, I do data engineering - building pipelines and systems to help our clients make business descisions based on timely, accurate and relevant data.
