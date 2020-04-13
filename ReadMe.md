@@ -10,7 +10,9 @@ The languages I know and whose ecosystems I'm most familiar with are:
 * Java
 * Javacript (+ React)
 
-In addition, I am familiar with many [AWS](https://aws.amazon.com/) services, and [Snowflake](https://www.snowflake.com/) cloud data warehouse. 
+In addition, I am familiar with many [AWS](https://aws.amazon.com/) services, and [Snowflake](https://www.snowflake.com/) cloud data warehouse.
+
+I blog at [oscarbarlow.com](oscarbarlow.com)
 
 ## Experience
 
