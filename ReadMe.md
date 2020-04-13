@@ -1,27 +1,31 @@
 # Oscar Barlow
 
 ## Introduction
-I'm a consultant at [Infinity Works](https://www.infinityworks.com/) in London, and an alumnus of [Makers Academy](https://makers.tech/) with previous careers in marketing and filmmaking. Consequently I have strong interpersonal and communication skills.
+I'm a senior consultant at [Infinity Works](https://www.infinityworks.com/) in London, and an alumnus of [Makers Academy](https://makers.tech/). At Infinity Works, I do data engineering - building pipelines and systems to help our clients make business descisions based on timely, accurate and relevant data.
 
-I have experience with Java 8, Python 3, Javascript and ReactJS. My code is normally deployed via a CI tool such as Circle to AWS; I have used ECS, Lambda, EMR, and a self-managed Kubernetes instance for compute. For storage, I have used Posrgres on RDS, DynamoDB, ElasticSearch, and S3.
+The languages I know and whose ecosystems I'm most familiar with are:
 
-At this stage in my career, I am interested in acquiring new skills in data engineering, and reinforcing my existing ones. My ideal next project would be a data-intensive application, working closely with an experienced lead who I can learn from, in addition to business stakeholders and data scientists.
+* Python 3
+* Terraform (HCL)
+* Java
+* Javacript (+ React)
+
+In addition, I am familiar with many [AWS](https://aws.amazon.com/) services, and [Snowflake](https://www.snowflake.com/) cloud data warehouse. 
 
 ## Experience
 
-### Consultant - Infinity Works 
+### Senior Consultant - Infinity Works 
 **Competitive Intelligence, January 2019 - present**
 
-* Led a small team to launch an internal competitive intelligence tool for Sainsbury's. 
-* In this project, an algorithm makes predictions about which competitor products are equivalent with Sainsburys' products; users then review the algorithm's predictions. Purchasing managers can then use information about confirmed matches in their negotiations.
-* Went to production approximately 1 month after arriving on the project, launching to a small group of internal users.
+* Led a small team to launch an internal competitive intelligence tool for Sainsbury's, allowing purchasers to review how competitive their product lines are, and to negotiate more advantageous pricing with suppliers, based on recommendations from our algorithm.
 * Introduced continuous integration and continuous deployment, coached team members to write tests, migrated from legacy to cloud-native architecture.
 * Worked with technical designers, enterprise architects, data scientists, and business stakeholders to produce meaningful schemas to produce meaningful data models in order to contribute data to Sainsburys' data warehouse.
+* Presented about this project to VelocityEU conference, Berlin 2019.
 
 **Loyalty Scheme, June 2017 - December 2018**
 
 * Prior to this, was part of a small team that built, launched, and supports [New Nectar](https://nectar.sainsburys.co.uk), a greenfield redevelopment of the well-known loyalty programme operated by Sainsbury's supermarkets in the UK.
-* Largely owned the interface with the data-science sister project to New Nectar, which consumed data from and provided inputs to New Nectar.
+* Largely owned the interface with the data science sister project to New Nectar, which consumed data from and provided inputs to New Nectar.
 * Mentored three other Infinity Works employees, and helped two progress from junior to midweight developer.
 * Organised regular meetups and coached speakers for two 'communities of practice' within Infinity Works, dedicated to knowledge sharing about DevOps, and Data Science & Engineering.
 
@@ -29,9 +33,6 @@ At this stage in my career, I am interested in acquiring new skills in data engi
 **April 2017 - June 2017**
 
 * Two-month consultancy contract - delivered an MVP of an internal tool for reconciling employee data from different sources.
-* Used Java 8 With Spring Boot 1.5 and AngularJS 4 on the front end, deployed to Pivotal Cloud Foundry via Jenkins.
-* Pair-programmed practically every day, and helped some of my colleagues to become more confident coders and pairers.
-* Demo'd to and clarified requirements with business stakeholders.
 
 ### Freelance Filmmaker
 **May 2014 - September 2016**
@@ -62,4 +63,10 @@ At this stage in my career, I am interested in acquiring new skills in data engi
 * Broad degree in which I studied formal logic, ethics, and cultural theory.
 
 ## Hobbies
-In my spare time I learn German, go hiking, and plan my next adventure abroad :airplane: I enjoy reading too - you can see my public notes and reviews of books I've read on my [Goodreads profile](https://www.goodreads.com/user/show/88872855-oscar-barlow).
+Right now I enjoy:
+* Learning German :de:
+* Yoga 
+* Riding my [Onewheel Pint](https://onewheel.com/products/pint)
+* Hiking
+* Planning my next adventure abroad :airplane:
+* Reading - you can see my public notes and reviews of books I've read on my [Goodreads profile](https://www.goodreads.com/user/show/88872855-oscar-barlow).
