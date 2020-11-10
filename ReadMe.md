@@ -17,7 +17,7 @@ I blog at [oscarbarlow.com](oscarbarlow.com)
 
 ### Senior Consultant - Infinity Works 
 **Web Development, June 2020 - September 2020**
-* Short-term engagement on the Government's supporting the coronavirus financial relief system. 
+* Short-term engagement on the Government's coronavirus financial relief system. 
 
 **Data Warehouse, November 2019 - May 2020**
 * Architected and built pipelines from on-premise databases into Snowflake, as part of a £10m 2-year programme to integrate the client's gaming platform with the game brands belonging to the business that had recently acquired them. 
