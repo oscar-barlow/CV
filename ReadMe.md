@@ -8,16 +8,18 @@ The languages I know and whose ecosystems I'm most familiar with are:
 * Python 3
 * Terraform (HCL)
 * Java
-* Javacript (+ React)
 
-In addition, I am familiar with many [AWS](https://aws.amazon.com/) services, and [Snowflake](https://www.snowflake.com/) cloud data warehouse.
+In addition, I am [AWS](https://aws.amazon.com/) Solution Architect (Associate) and [Snowflake](https://www.snowflake.com/) SnowPro Core certified.
 
 I blog at [oscarbarlow.com](oscarbarlow.com)
 
 ## Experience
 
 ### Senior Consultant - Infinity Works 
-**Data Warehouse, November 2019 - present**
+**Web Development, June 2020 - September 2020**
+* Short-term engagement on the Government's supporting the coronavirus financial relief system. 
+
+**Data Warehouse, November 2019 - May 2020**
 * Architected and built pipelines from on-premise databases into Snowflake, as part of a £10m 2-year programme to integrate the client's gaming platform with the game brands belonging to the business that had recently acquired them. 
 * Coached my team in agile, cloud platform engineering, clean coding, and invested heavily in remote working practices as one team member was based in Australia.
 
