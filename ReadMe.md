@@ -16,7 +16,10 @@ I blog at [oscarbarlow.com](oscarbarlow.com)
 
 ## Experience
 
-### Senior Consultant - Infinity Works 
+### Senior Consultant - Infinity Works
+**Document Search System, December 2020 - March 2021**
+* Part of a team building a pipeline and web app to make internal documents searchable
+
 **Web Development, June 2020 - September 2020**
 * Short-term engagement on the Government's coronavirus financial relief system. 
 
