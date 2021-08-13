@@ -8,7 +8,6 @@ The languages I know and whose ecosystems I'm most familiar with are:
 * Python 3
 * Terraform (HCL)
 * Java
-* Javascript/React
 
 In addition, I am [AWS](https://aws.amazon.com/) Solution Architect (Associate) and [Snowflake](https://www.snowflake.com/) SnowPro Core certified.
 
