@@ -1,19 +1,36 @@
 # Oscar Barlow
 
 ## Introduction
-I'm a senior consultant at [Infinity Works](https://www.infinityworks.com/) in London, and an alumnus of [Makers Academy](https://makers.tech/). At Infinity Works, I do data engineering - building pipelines and systems to help our clients make business descisions based on timely, accurate and relevant data.
+I'm a Tech Lead at [Starling Bank](https://www.starlingbank.com/) in London, a former [Infinity-Worker](https://www.infinityworks.com/), and a [Maker](https://makers.tech/). I build and lead a teams of engineers in data-intensive projects.
 
+## Key Achievements
+* Shipped a real-time data platform and cultivated a team of streaming data experts
+* Lead a 3-person team to migrated a client's on-premise data warehouse to a cloud-based solution
+* Led a team to launch an internal, algorthmic competitive intelligence tool for a retail client
+* Mentored and taught numerous junior and midlevel developers
+
+If you'd like to know more, read my [CV](https://github.com/oscar-barlow/CV).
+
+## Technical Skills
 The languages I know and whose ecosystems I'm most familiar with are:
 
 * Python 3
 * Terraform (HCL)
 * Java
 
-In addition, I am [AWS](https://aws.amazon.com/) Solution Architect (Associate) and [Snowflake](https://www.snowflake.com/) SnowPro Core certified.
-
-I blog at [oscarbarlow.com](oscarbarlow.com)
+In addition, I am [AWS](https://aws.amazon.com/) Solution Architect (Associate) and [Snowflake](https://www.snowflake.com/) SnowPro Core certified. I'm working on a GCP cert.
 
 ## Experience
+
+### Tech Lead - Starling Bank
+**November 2021 - present**
+* Led problem discovery, technology selection, and implementation for a project to relaunch Starling's data systems.
+* Shipped a streaming platform to export data to an analytics database with millisecond latency, without impacting source databases.
+* Grew and upskilled data engineering team from 2 to 8 members (including managing external partners).
+* Improved and increased data exploitation by creating a self-serve system for data analysts and scientists
+
+### Shared Parental Leave
+**March 2021 - November 2021**
 
 ### Senior Consultant - Infinity Works
 **Document Search System, December 2020 - March 2021**
