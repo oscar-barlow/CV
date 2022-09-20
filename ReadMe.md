@@ -9,8 +9,6 @@ I'm a Tech Lead at [Starling Bank](https://www.starlingbank.com/) in London, a f
 * Led a team to launch an internal, algorthmic competitive intelligence tool for a retail client
 * Mentored and taught numerous junior and midlevel developers
 
-If you'd like to know more, read my [CV](https://github.com/oscar-barlow/CV).
-
 ## Technical Skills
 The languages I know and whose ecosystems I'm most familiar with are:
 
