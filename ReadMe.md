@@ -1,13 +1,12 @@
 # Oscar Barlow
 
 ## Introduction
-I'm a Tech Lead at [Starling Bank](https://www.starlingbank.com/) in London, a former [Infinity-Worker](https://www.infinityworks.com/), and a [Maker](https://makers.tech/). I build and lead a teams of engineers in data-intensive projects.
+I'm a Data Practice Lead covering ML Governance & Ops at [Starling Bank](https://www.starlingbank.com/) in London. I design and build systems and teams to solve business problems with data and ML.
 
 ## Key Achievements
-* Shipped a real-time data platform at Starling, and cultivated a team of streaming data experts
-* Led a 3-person team to migrate a client's on-premise data warehouse to a cloud-based solution
-* Led a team to launch an internal, algorthmic competitive intelligence tool for a retail client
-* Mentored and taught numerous junior and midlevel developers
+* Created an 'accessible ML' framework at Starling, increasing the amount of ML models produced by making ML workflow tooling usable by a broader community (data analysts as well as data scientists)
+* Shipped a real-time data platform at Starling; multiplying the number of people who could accomplish work in the data warehouse by 10x. Business feedback, "whenever I want data, it's there"
+* Launched an internal, algorthmic competitive intelligence tool for a UK national supermarket, driving price competitiveness and product range decisions
 
 ## Technical Skills
 The languages I know and whose ecosystems I'm most familiar with are:
@@ -16,15 +15,20 @@ The languages I know and whose ecosystems I'm most familiar with are:
 * Terraform (HCL)
 * Java
 
-In addition, I am [AWS](https://aws.amazon.com/) Solution Architect (Associate) and [Snowflake](https://www.snowflake.com/) SnowPro Core certified. I'm working on a GCP cert.
-
 ## Experience
 
+### Data Practice Lead - Starling Bank
+* Senior engineering role with a remit covering ML governance (ethics, explainability) and ops at Starling
+* Implemented drift detection on ML models in production
+* Created an 'accessible ML' framework to increase the amount of ML happening at Starling
+* Launched ML explainability data science research project
+* Shipped Starling's first entirely cloud-trained models
+
 ### Tech Lead - Starling Bank
-**November 2021 - present**
-* Led problem discovery, technology selection, and implementation for a project to relaunch Starling's data systems.
+**November 2021 - June 2023**
+* Led problem discovery, technology selection, design and implementation for a project to relaunch Starling's data systems.
 * Shipped a streaming platform to export data to an analytics database with millisecond latency, without impacting source databases.
-* Grew and upskilled data engineering team from 2 to 8 members (including managing external partners).
+* Grew and upskilled data engineering team 4x (including managing external partners).
 * Improved and increased data exploitation by creating a self-serve system for data analysts and scientists
 
 ### Shared Parental Leave
@@ -45,15 +49,13 @@ In addition, I am [AWS](https://aws.amazon.com/) Solution Architect (Associate) 
 
 * Led a small team to launch an internal competitive intelligence tool for Sainsbury's, allowing purchasers to review how competitive their product lines are, and to negotiate more advantageous pricing with suppliers, based on recommendations from our algorithm.
 * Introduced continuous integration and continuous deployment, coached team members to write tests, migrated from legacy to cloud-native architecture.
-* Worked with technical designers, enterprise architects, data scientists, and business stakeholders to produce meaningful schemas to produce meaningful data models in order to contribute data to Sainsburys' data warehouse.
 * Presented about this project to VelocityEU conference, Berlin 2019.
 
 **Loyalty Scheme, June 2017 - December 2018**
 
-* Prior to this, was part of a small team that built, launched, and supports [New Nectar](https://nectar.sainsburys.co.uk), a greenfield redevelopment of the well-known loyalty programme operated by Sainsbury's supermarkets in the UK.
-* Largely owned the interface with the data science sister project to New Nectar, which consumed data from and provided inputs to New Nectar.
+* Member of a small team that built, launched, and supported [Nectar](https://nectar.sainsburys.co.uk), a greenfield redevelopment of the well-known loyalty programme operated by Sainsbury's supermarkets in the UK.
+* Designed and owned the pipelines to the data science sister project to Nectar, consuming outputs and providing inputs.
 * Mentored three other Infinity Works employees, and helped two progress from junior to midweight developer.
-* Organised regular meetups and coached speakers for two 'communities of practice' within Infinity Works, dedicated to knowledge sharing about DevOps, and Data Science & Engineering.
 
 ### Junior Developer - Makers Academy/HSBC
 **April 2017 - June 2017**
@@ -92,7 +94,4 @@ In addition, I am [AWS](https://aws.amazon.com/) Solution Architect (Associate) 
 Right now I enjoy:
 * Learning German :de:
 * Yoga 
-* Riding my [Onewheel Pint](https://onewheel.com/products/pint)
 * Hiking
-* Planning my next adventure abroad :airplane:
-* Reading - you can see my public notes and reviews of books I've read on my [Goodreads profile](https://www.goodreads.com/user/show/88872855-oscar-barlow).
