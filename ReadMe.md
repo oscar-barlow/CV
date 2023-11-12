@@ -4,6 +4,7 @@
 I'm a Data Practice Lead covering ML Governance & Ops at [Starling Bank](https://www.starlingbank.com/) in London. I design and build systems and teams to solve business problems with data and ML.
 
 ## Key Achievements
+
 * Created an 'accessible ML' framework at Starling, increasing the amount of ML models produced by making ML workflow tooling usable by a broader community (data analysts as well as data scientists)
 * Shipped a real-time data platform at Starling; multiplying the number of people who could accomplish work in the data warehouse by 10x. Business feedback, "whenever I want data, it's there"
 * Launched an internal, algorthmic competitive intelligence tool for a UK national supermarket, driving price competitiveness and product range decisions
@@ -19,6 +20,7 @@ The languages I know and whose ecosystems I'm most familiar with are:
 
 ### Data Practice Lead - Starling Bank
 **June 2023 - present**
+
 * Senior engineering role with a remit covering ML governance (ethics, explainability) and ops at Starling
 * Implemented drift detection on ML models in production
 * Created an 'accessible ML' framework to increase the amount of ML happening at Starling
@@ -27,6 +29,7 @@ The languages I know and whose ecosystems I'm most familiar with are:
 
 ### Tech Lead - Starling Bank
 **November 2021 - June 2023**
+
 * Led problem discovery, technology selection, design and implementation for a project to relaunch Starling's data systems.
 * Shipped a streaming platform to export data to an analytics database with millisecond latency, without impacting source databases.
 * Grew and upskilled data engineering team 4x (including managing external partners).
@@ -40,9 +43,11 @@ The languages I know and whose ecosystems I'm most familiar with are:
 * Part of a team building a pipeline and web app to make internal documents searchable
 
 **Web Development, June 2020 - September 2020**
+
 * Short-term engagement on the Government's coronavirus financial relief system. 
 
 **Data Warehouse, November 2019 - May 2020**
+
 * Architected and built pipelines from on-premise databases into Snowflake, as part of a £10m 2-year programme to integrate the client's gaming platform with the game brands belonging to the business that had recently acquired them. 
 * Coached my team in agile, cloud platform engineering, clean coding, and invested heavily in remote working practices as one team member was based in Australia.
 
@@ -93,6 +98,7 @@ The languages I know and whose ecosystems I'm most familiar with are:
 
 ## Hobbies
 Right now I enjoy:
+
 * Learning German :de:
 * Yoga 
 * Hiking
