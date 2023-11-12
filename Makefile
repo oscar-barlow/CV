@@ -12,7 +12,8 @@ local: set-hashed-name create-pdf set-date rename
 
 .PHONY: publish
 publish:
-	gh release create "$(DATE)" -t "$(DATE)" -n "$(shell git show -s --format=%s)"
+	gh release create "$(DATE)" -t "$(DATE)" -n "$(shell git show -s --format=%s)" "${{ github.workspace }}/Oscar Barlow CV $(DATE).pdf"
+
 
 .PHONY: rename
 rename:
