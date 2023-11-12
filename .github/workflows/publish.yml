@@ -21,7 +21,7 @@ jobs:
       - name: Set environment vars
         run: |
           echo "DATE=$(date --iso-8601=date)" >> $GITHUB_ENV
-          echo "HASHED_NAME=$(shasum ReadMe.md | awk '{print $$1}')" >> $GITHUB_ENV
+          echo "HASHED_NAME=$(shasum ReadMe.md | awk '{print $1}')" >> $GITHUB_ENV
 
       - name: Release
         run: |
