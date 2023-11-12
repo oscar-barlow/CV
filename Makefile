@@ -10,6 +10,10 @@ create-pdf:
 .PHONY: local
 local: set-hashed-name create-pdf set-date rename
 
+.PHONY: publish
+publish:
+	gh release create "$(DATE)" -t "$(DATE)" --generate-notes
+
 .PHONY: rename
 rename:
 	mv "$(HASHED_NAME).pdf" "Oscar Barlow CV $(DATE).pdf"	
