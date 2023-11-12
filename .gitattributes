@@ -1,5 +1,1 @@
-.github		export-ignore
-.gitignore	export-ignore
-ReadMe.md	export-ignore
-Makefile	export-ignore
-
+./ export-ignore
