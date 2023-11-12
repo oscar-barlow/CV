@@ -18,6 +18,7 @@ The languages I know and whose ecosystems I'm most familiar with are:
 ## Experience
 
 ### Data Practice Lead - Starling Bank
+**June 2023 - present**
 * Senior engineering role with a remit covering ML governance (ethics, explainability) and ops at Starling
 * Implemented drift detection on ML models in production
 * Created an 'accessible ML' framework to increase the amount of ML happening at Starling
