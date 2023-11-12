@@ -24,7 +24,9 @@ jobs:
           echo "HASHED_NAME=$(shasum ReadMe.md | awk '{print $$1}')" >> $GITHUB_ENV
 
       - name: Release
-        run: make ci
+        run: |
+        echo $DATE
+        make ci
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DATE: ${{ env.DATE }}
