@@ -16,7 +16,7 @@ jobs:
       - name: Install pandoc
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc
+          sudo apt-get install -y pandoc texlive-latex-base
 
       - name: Set environment vars
         run: |
@@ -25,7 +25,6 @@ jobs:
 
       - name: Release
         run: |
-          echo $HASHED_NAME
           make ci
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
