@@ -25,8 +25,8 @@ jobs:
 
       - name: Release
         run: |
-        echo $DATE
-        make ci
+          echo $DATE
+          make ci
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DATE: ${{ env.DATE }}
