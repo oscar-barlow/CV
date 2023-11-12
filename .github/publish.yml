@@ -1,0 +1,31 @@
+name: Build and Publish PDF
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install pandoc
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc
+
+      - name: Set environment vars
+        run: |
+          echo "DATE=$(date --iso-8601=date)" >> $GITHUB_ENV
+          echo "HASHED_NAME=$(shasum ReadMe.md | awk '{print $$1}')" >> $GITHUB_ENV
+
+      - name: Release
+        run: make ci
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DATE: ${{ env.DATE }}
+          HASHED_NAME: ${{ env.HASHED_NAME }}
