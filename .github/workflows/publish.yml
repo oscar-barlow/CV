@@ -1,7 +1,10 @@
-name: Build and Publish PDF
+name: Publish CV
 
 on:
   push:
+    paths:
+      - 'ReadMe.md'
+      - '.github/workflows/publish.yml'
     branches:
       - master
 
