@@ -26,3 +26,6 @@ set-date:
 .PHONY: set-hashed-name
 set-hashed-name:
 	$(eval HASHED_NAME := $(shell shasum ReadMe.md | awk '{print $$1}'))
+
+tex:
+	pdflatex CV.tex
