@@ -19,7 +19,7 @@ jobs:
       - name: Install pandoc
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc texlive-latex-recommended texlive-latex-extra-utils
+          sudo apt-get install -y pandoc texlive-latex-recommended texlive-extra-utils
 
       - name: Set environment vars
         run: |
