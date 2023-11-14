@@ -9,7 +9,7 @@ local: create-pdf set-date rename
 
 .PHONY: publish
 publish:
-	gh release create "Oscar Barlow CV $(DATE)" -t "$(DATE)" -n "Oscar Barlow's CV for $(DATE). A PDF is available to download from the link below." "$(GITHUB_WORKSPACE)/Oscar Barlow CV $(DATE).pdf"
+	gh release create "$(DATE)" -t "Oscar Barlow CV $(DATE)" -n "Oscar Barlow's CV for $(DATE). A PDF is available to download from the link below." "$(GITHUB_WORKSPACE)/Oscar Barlow CV $(DATE).pdf"
 
 rename:
 	mv "CV.pdf" "Oscar Barlow CV $(DATE).pdf"	
