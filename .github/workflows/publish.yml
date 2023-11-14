@@ -3,7 +3,7 @@ name: Publish CV
 on:
   push:
     paths:
-      - 'ReadMe.md'
+      - 'CV.tex'
       - '.github/workflows/publish.yml'
     branches:
       - master
