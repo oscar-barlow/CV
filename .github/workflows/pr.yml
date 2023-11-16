@@ -39,3 +39,4 @@ jobs:
         with:
           name: CV
           path: "CV.pdf"
+          retention-days: 1
