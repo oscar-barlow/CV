@@ -2,13 +2,14 @@ name: PR CI
 
 on:
   pull_request:
+    branches:
+      - '*'
+      - '!master'
+  push:
     paths:
       - 'CV.tex'
       - '.github/workflows/publish.yml'
       - '.github/workflows/pr.yml'
-    branches:
-      - '*'
-      - '!master'
 
 jobs:
   pr-ci:
@@ -26,7 +27,6 @@ jobs:
       - name: Set environment vars
         run: |
           echo "DATE=$(date --iso-8601=date)" >> $GITHUB_ENV
-          echo "HASHED_NAME=$(shasum ReadMe.md | awk '{print $1}')" >> $GITHUB_ENV
 
       - name: Build CV
         run: make create-pdf
