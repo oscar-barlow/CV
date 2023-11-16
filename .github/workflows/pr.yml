@@ -1,0 +1,35 @@
+name: PR CI
+
+on:
+  pull_request:
+    paths:
+      - 'CV.tex'
+      - '.github/workflows/publish.yml'
+      - '.github/workflows/pr.yml'
+    branches:
+      - '*'
+      - '!master'
+
+jobs:
+  pr-ci:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install pandoc & TeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-latex-recommended texlive-latex-extra texlive-extra-utils
+
+      - name: Set environment vars
+        run: |
+          echo "DATE=$(date --iso-8601=date)" >> $GITHUB_ENV
+          echo "HASHED_NAME=$(shasum ReadMe.md | awk '{print $1}')" >> $GITHUB_ENV
+
+      - name: Run Makefile for PR CI
+        run: make pr-ci
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DATE: ${{ env.DATE }}
