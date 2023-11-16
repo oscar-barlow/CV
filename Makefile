@@ -7,8 +7,7 @@ create-pdf:
 
 .PHONY: deps
 deps:
-	sudo apt-get update
-    sudo apt-get install -y pandoc texlive-latex-recommended texlive-latex-extra texlive-extra-utils
+	sudo apt-get update && sudo apt-get install -y pandoc texlive-latex-recommended texlive-latex-extra texlive-extra-utils
 
 local: create-pdf set-date rename
 
