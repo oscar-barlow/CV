@@ -28,8 +28,14 @@ jobs:
           echo "DATE=$(date --iso-8601=date)" >> $GITHUB_ENV
           echo "HASHED_NAME=$(shasum ReadMe.md | awk '{print $1}')" >> $GITHUB_ENV
 
-      - name: Run Makefile for PR CI
-        run: make pr-ci
+      - name: Build CV
+        run: make create-pdf
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DATE: ${{ env.DATE }}
+
+      - name: Archive CV
+        uses: actions/upload-artifact@v3
+        with:
+          name: CV
+          path: "CV.pdf"
