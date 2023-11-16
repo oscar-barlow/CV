@@ -16,15 +16,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Install pandoc & TeX
+      - name: Install dependences
         run: |
-          sudo apt-get update
-          sudo apt-get install -y pandoc texlive-latex-recommended texlive-latex-extra texlive-extra-utils
+          make deps
 
       - name: Set environment vars
         run: |
           echo "DATE=$(date --iso-8601=date)" >> $GITHUB_ENV
-          echo "HASHED_NAME=$(shasum ReadMe.md | awk '{print $1}')" >> $GITHUB_ENV
 
       - name: Release
         run: |
