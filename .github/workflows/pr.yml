@@ -32,10 +32,3 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DATE: ${{ env.DATE }}
-
-      - name: Archive CV
-        uses: actions/upload-artifact@v3
-        with:
-          name: CV
-          path: "CV.pdf"
-          retention-days: 1
