@@ -3,8 +3,8 @@ name: Publish CV
 on:
   push:
     paths:
-      - 'CV.tex'
-      - '.github/workflows/publish.yml'
+      - "CV.tex"
+      - ".github/workflows/publish.yml"
     branches:
       - master
 

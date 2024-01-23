@@ -3,13 +3,13 @@ name: PR CI
 on:
   pull_request:
     branches:
-      - '*'
-      - '!master'
+      - "*"
+      - "!master"
   push:
     paths:
-      - 'CV.tex'
-      - '.github/workflows/publish.yml'
-      - '.github/workflows/pr.yml'
+      - "CV.tex"
+      - ".github/workflows/publish.yml"
+      - ".github/workflows/pr.yml"
 
 jobs:
   pr-ci:
