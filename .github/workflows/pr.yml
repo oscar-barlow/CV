@@ -10,6 +10,9 @@ on:
       - "CV.tex"
       - ".github/workflows/publish.yml"
       - ".github/workflows/pr.yml"
+    branches:
+      - "*"
+      - "!master"
 
 jobs:
   pr-ci:
