@@ -1,84 +1,84 @@
 \documentclass[a4paper]{scrartcl}
 
-\usepackage{enumitem}
-\usepackage[margin=2cm, bottom=2.5cm]{geometry}
-\usepackage[utf8]{inputenc}
-\author{Oscar Barlow}
+\usepackage{cv}
 
+\author{Oscar Barlow}
+\title{Oscar Barlow}
+\cvsubtitle{hi@oscarbarlow.com}
 \date{}
 
 \begin{document}
 
-\title{Oscar Barlow}
-\subtitle{hi@oscarbarlow.com}
 \maketitle
 
 \section*{Personal Profile}
-I am a seasoned and strategic technology leader with a proven track record in
-delivering complex, ambitious projects across the financial services,
-insurance,
-and retail sectors. My leadership has produced
-millions of pounds in business value, seen in significant increases in
-productivity, innovation, and substantial cost savings.
+ { % Start of local scope
+  \setlength{\parskip}{6pt plus 2pt minus 1pt}
+  I am a seasoned technology leader with a proven track record in
+  delivering complex, ambitious projects across the financial services,
+  insurance,
+  and retail industries. My leadership has produced
+  millions of pounds in business value, seen in significant increases in
+  productivity, innovation, and substantial cost savings.
 
-Technically highly proficient and strategically focused, I excel in aligning
-multidisciplinary
-teams around a cohesive technological vision. I create an environment of
-transparent communication and inclusive decision-making in my teams, leading to
-high productivity and personal growth.
+  Technically highly proficient and strategically focused, I excel in aligning
+  multidisciplinary
+  teams around a cohesive technological vision. I create an environment of
+  transparent communication and inclusive decision-making in my teams, leading to
+  high productivity and personal growth.
+ } % End of local scope
 
 \section*{Technical Skills}
 \begin{itemize}
-      \item Cloud Architecture: experienced in designing and building secure,
-            scalable, available, performant, high quality and cost-effective
-            systems in the
-            cloud. I am familiar with both AWS and GCP.
-      \item Software Development: Skilled in Python and Java and their
-            ecosystems, with a
-            strong foundation in Object-Oriented Programming.
-      \item Engineering Practices: committed to fostering sound engineering
-            practices and improving developer experience (DevEx), including
-            CI/CD,
-            automated testing, and a strong culture of collaboration.
-      \item Data Engineering and ML Ops: particularly strong experience in
-            these domains, having successfully designing and built several
-            pipelines (Kafka, AWS DMS) and data warehouses (Snowflake,
-            BigQuery)
-            and ML ops systems (Vertex).
+	\item Cloud Architecture: experienced in designing and building secure,
+	      scalable, available, performant, high quality and cost-effective
+	      systems in the
+	      cloud. I am familiar with both AWS and GCP.
+	\item Software Development: Skilled in Python and Java and their
+	      ecosystems, with a
+	      strong foundation in Object-Oriented Programming.
+	\item Engineering Practices: committed to fostering sound engineering
+	      practices and improving developer experience (DevEx), including
+	      CI/CD,
+	      automated testing, and a strong culture of collaboration.
+	\item Data Engineering and ML Ops: particularly strong experience in
+	      these domains, having successfully designing and built several
+	      pipelines (Kafka, AWS DMS) and data warehouses (Snowflake,
+	      BigQuery)
+	      and ML ops systems (Vertex).
 \end{itemize}
 
 \section*{Experience}
 
-% starling bit needs rewriting
 \subsection*{Data Practice Lead - Starling Bank}
 \textbf{June 2023 - Present}
 \begin{itemize}
-      \item Senior engineering management role with a remit covering ML Ops
-            (ethics,
-            explainability) and Governance at Starling
-      \item Improved ML governance and auditability by re-architecting
-            Starling's ML training pipelines.
-      \item Anticipated regulatory requirements and enhanced Starling's brand
-            by launching an internal ML explainabilty research
-      \item Prevented significant financial loss due to fraud by implementing
-            drift detection for online inference
-      \item Invested in ML developer experience and delivered significantly
-            faster cycle times for model deployment, in addition to doubling the community
-            of ML model authors without increasing headcount.
+	\item Senior engineering management role with a remit covering ML Ops
+	      (ethics,
+	      explainability) and Governance at Starling
+	\item Improved ML governance and auditability by re-architecting
+	      Starling's ML training pipelines.
+	\item Anticipated regulatory requirements and enhanced Starling's brand
+	      by launching an internal ML explainabilty research
+	\item Prevented significant financial loss due to fraud by implementing
+	      drift detection for online inference
+	\item Invested in ML developer experience and delivered significantly
+	      faster cycle times for model deployment, in addition to doubling the community
+	      of ML model authors without increasing headcount.
 \end{itemize}
 
 \subsection*{Engineering Manager - Starling Bank}
 \textbf{November 2021 - June 2023}
 \begin{itemize}
-      \item Led problem discovery, technology selection, design and
-            implementation for a project to relaunch Starling's data systems.
-      \item Shipped a streaming platform to export data to an analytics
-            database
-            with millisecond latency, without impacting source databases.
-      \item Grew and upskilled data engineering team 4x (including managing
-            external partners).
-      \item Improved and increased data exploitation by creating a self-serve
-            system for data analysts and scientists
+	\item Led problem discovery, technology selection, design and
+	      implementation for a project to relaunch Starling's data systems.
+	\item Shipped a streaming platform to export data to an analytics
+	      database
+	      with millisecond latency, without impacting source databases.
+	\item Grew and upskilled data engineering team 4x (including managing
+	      external partners).
+	\item Improved and increased data exploitation by creating a self-serve
+	      system for data analysts and scientists
 \end{itemize}
 
 \subsection*{Shared Parental Leave}
@@ -87,38 +87,38 @@ high productivity and personal growth.
 \subsection*{Consulting Experience - Infinity Works (Acq. by Accenture, 2021)}
 \textbf{June 2017 - March 2021}
 \begin{itemize}
-      \item Limited accidental overexposure in multi-million pound
-            (re)insurance contracts by making
-            all internal documents searchable at an internal portal for Convex
-            Insurance UK Ltd
-      \item Architected and built pipelines from on-premise databases into
-            Snowflake, as part of a £10m 2-year programme to integrate the
-            client's systems into the company that had recently acquired them.
-            Coached my teams in agile, cloud platform engineering, clean
-            coding,
-            and invested heavily in remote working practices as one team member
-            was based
-            in Australia.
-      \item Allowed Sainsbury's to rationalise (create/deprecate lines, adjust
-            quality) its product range in relation to its competitors by
-            building an
-            algorithmic competitive intelligence tool. This has delivered
-            hundreds of
-            thousands of pounds in profit and operational cost savings.
-      \item Helped relaunched Nectar, Sainsbury's flagship
-            loyalty programme. Architected integrations with 3rd party systems
-            and pipelines to data science projects. Coached and mentored junior
-            developers
-            employed by the client.
-      \item Helped several mentees to achieve
-            promotions to Senior Consultant level.
+	\item Limited accidental overexposure in multi-million pound
+	      (re)insurance contracts by making
+	      all internal documents searchable at an internal portal for Convex
+	      Insurance UK Ltd
+	\item Architected and built pipelines from on-premise databases into
+	      Snowflake, as part of a £10m 2-year programme to integrate the
+	      client's systems into the company that had recently acquired them.
+	      Coached my teams in agile, cloud platform engineering, clean
+	      coding,
+	      and invested heavily in remote working practices as one team member
+	      was based
+	      in Australia.
+	\item Allowed Sainsbury's to rationalise (create/deprecate lines, adjust
+	      quality) its product range in relation to its competitors by
+	      building an
+	      algorithmic competitive intelligence tool. This has delivered
+	      hundreds of
+	      thousands of pounds in profit and operational cost savings.
+	\item Helped relaunched Nectar, Sainsbury's flagship
+	      loyalty programme. Architected integrations with 3rd party systems
+	      and pipelines to data science projects. Coached and mentored junior
+	      developers
+	      employed by the client.
+	\item Helped several mentees to achieve
+	      promotions to Senior Consultant level.
 \end{itemize}
 
 \subsection*{Junior Developer - Makers Academy/HSBC}
 \textbf{April 2017 - June 2017}
 \begin{itemize}
-      \item Delivered an MVP data reconciliation tool for HR purposes in 8
-            weeks, leading a team of junior developers.
+	\item Delivered an MVP data reconciliation tool for HR purposes in 8
+	      weeks, leading a team of junior developers.
 \end{itemize}
 
 \subsection*{Maketing Manager \& Freelance Filmmaker - Various Companies}

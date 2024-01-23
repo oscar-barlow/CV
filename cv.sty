@@ -1,0 +1,41 @@
+\ProvidesPackage{cv}
+
+\RequirePackage{enumitem}
+\RequirePackage[margin=1.8cm]{geometry}
+\RequirePackage{scrbase}
+\RequirePackage{setspace}
+\RequirePackage{titlesec}
+\RequirePackage[utf8]{inputenc}
+
+% set font to sans serif
+\renewcommand{\familydefault}{\sfdefault}
+
+% don't indent paragrpahs
+\setlength{\parindent}{0pt}
+
+% Add space between paragraphs
+% \setlength{\parskip}{6pt plus 2pt minus 1pt}
+
+% Define a command to store the subtitle
+\newcommand{\cvsubtitle}[1]{\def\@cvsubtitle{#1}}
+
+% Redefine \maketitle to include the subtitle
+\makeatletter
+\renewcommand*{\maketitle}{%
+  \begin{center}
+    \huge\bfseries\@title
+    \par
+    \large\normalfont\@cvsubtitle
+    \par
+    \vspace{0.8em} % Adjust the vertical space as needed
+  \end{center}%
+}
+\makeatother
+
+\titleformat{\section}
+  {\normalfont\Large\bfseries}{\thesection}{1em}{}
+\titlespacing*{\section}{0pt}{3.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}
+
+\titleformat{\subsection}
+  {\normalfont\large\bfseries}{\thesubsection}{1em}{}
+\titlespacing*{\subsection}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
