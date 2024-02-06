@@ -2,6 +2,10 @@ default: local
 
 ci: create-pdf rename publish
 
+.PHONY: clean
+clean:
+	rm CV.aux CV.log CV.out indent.log && rm *.pdf
+
 create-pdf:
 	pdflatex CV.tex
 
