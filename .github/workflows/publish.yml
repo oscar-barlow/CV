@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "CV.tex"
+      - "cv.sty"      
       - ".github/workflows/publish.yml"
     branches:
       - master
