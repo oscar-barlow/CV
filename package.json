@@ -1,0 +1,11 @@
+{
+  "name": "CV",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:oscar-barlow/CV.git",
+  "author": "Oscar Barlow <oscar-barlow@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "spellchecker-cli": "^6.2.0"
+  }
+}
