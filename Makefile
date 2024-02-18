@@ -26,3 +26,7 @@ rename:
 .PHONY: set-date
 set-date:
 	$(eval DATE := $(shell date --iso-8601=date))
+
+.PHONY: spellcheck
+spellcheck:
+	cat CV.tex | aspell list -t
