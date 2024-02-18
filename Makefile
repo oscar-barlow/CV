@@ -7,12 +7,16 @@ clean:
 	rm CV.aux CV.log
 	rm *.pdf
 
+.PHONY: check-length
+check-length:
+	pdfinfo ./$(FILE_NAME) | grep Pages | awk '{print $$2}'
+
 create-pdf:
 	pdflatex CV.tex
 
 .PHONY: deps
 deps:
-	sudo apt-get update && sudo apt-get install -y pandoc texlive-latex-recommended texlive-latex-extra texlive-extra-utils aspell
+	sudo apt-get update && sudo apt-get install -y pandoc texlive-latex-recommended texlive-latex-extra texlive-extra-utils aspell poppler-utils
 
 local: create-pdf set-date rename
 
