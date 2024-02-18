@@ -4,6 +4,7 @@ on:
   pull_request:
   push:
     paths:
+      - ".aspell.en.pws"
       - "CV.tex"
       - "cv.sty"
       - ".github/workflows/publish.yml"
