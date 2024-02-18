@@ -3,6 +3,7 @@ name: Publish CV
 on:
   push:
     paths:
+      - ".aspell.en.pws"
       - "CV.tex"
       - "cv.sty"      
       - ".github/workflows/publish.yml"
@@ -20,6 +21,16 @@ jobs:
       - name: Install dependences
         run: |
           make deps
+
+      - name: Spellcheck
+        run: |
+          if make -s spellcheck; then
+            echo "No spelling mistakes found."
+            exit 0
+          else
+            echo "Spelling mistakes found."
+            exit 1
+          fi
 
       - name: Set environment vars
         run: |
