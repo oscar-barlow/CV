@@ -31,24 +31,30 @@ jobs:
             echo "Spelling mistakes found."
             exit 1
           fi
+      
+      - name: Create PDF
+        run: |
+          make create-pdf
+          
+      - name: Check length
+        run: |
+          PAGES=$(make -s check-length | awk '{print $1}')
+          if [ "$PAGES" -le 2 ]; then
+            echo "CV is 2 pages or less."
+            exit 0
+          else
+            echo "CV is too long."
+            exit 1
+          fi
 
       - name: Set environment vars
         run: |
           echo "DATE=$(date --iso-8601=date)" >> $GITHUB_ENV
 
-      - name: Release
+      - name: Rename & Publish
         run: |
-          make ci
+          make rename
+          make publish
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DATE: ${{ env.DATE }}
-
-      - name: Check length
-        run: |
-          if make -s check-length < 3; then
-            "CV is 2 pages or less"
-            exit 0
-          else
-            echo "CV is too long."
-            exit 1
-              fi
