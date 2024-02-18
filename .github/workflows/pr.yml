@@ -47,7 +47,7 @@ jobs:
 
       - name: Check length
         run: |
-          PAGES=$(make -s check-length FILE_NAME=CV.pdf | awk '{print $1}')
+          PAGES=$(make -s check-length | awk '{print $1}')
           if [ "$PAGES" -le 2 ]; then
             echo "CV is 2 pages or less."
             exit 0
