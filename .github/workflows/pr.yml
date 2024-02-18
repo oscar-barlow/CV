@@ -45,11 +45,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DATE: ${{ env.DATE }}
 
-
       - name: Check length
         run: |
-          if make -s check-length FILE_NAME=CV.pdf < 3; then
-            "CV is 2 pages or less"
+          PAGES=$(make -s check-length FILE_NAME=CV.pdf | awk '{print $1}')
+          if [ "$PAGES" -le 2 ]; then
+            echo "CV is 2 pages or less."
             exit 0
           else
             echo "CV is too long."
