@@ -29,4 +29,4 @@ set-date:
 
 .PHONY: spellcheck
 spellcheck:
-	@cat CV.tex | aspell list --mode=tex --lang=en_GB-ise --personal=./.aspell.en.pws
+	cat CV.tex | aspell list --mode=tex --lang=en_GB-ise --personal=./.aspell.en.pws
