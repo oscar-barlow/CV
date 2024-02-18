@@ -12,7 +12,7 @@ create-pdf:
 
 .PHONY: deps
 deps:
-	sudo apt-get update && sudo apt-get install -y pandoc texlive-latex-recommended texlive-latex-extra texlive-extra-utils
+	sudo apt-get update && sudo apt-get install -y pandoc texlive-latex-recommended texlive-latex-extra texlive-extra-utils spell
 
 local: create-pdf set-date rename
 
@@ -29,4 +29,4 @@ set-date:
 
 .PHONY: spellcheck
 spellcheck:
-	cat CV.tex | aspell list --mode=tex --lang=en_GB-ise --personal=./.aspell.en_GB.pws
+	@cat CV.tex | aspell list --mode=tex --lang=en_GB-ise --personal=./.aspell.en.pws
