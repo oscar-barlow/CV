@@ -35,16 +35,6 @@ jobs:
             exit 1
           fi
 
-      - name: Check length
-        run: |
-          if make -s check-length < 3; then
-            "CV is 2 pages or less"
-            exit 0
-          else
-            echo "CV is too long."
-            exit 1
-          fi
-
       - name: Set environment vars
         run: |
           echo "DATE=$(date --iso-8601=date)" >> $GITHUB_ENV
@@ -54,3 +44,14 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DATE: ${{ env.DATE }}
+
+
+      - name: Check length
+        run: |
+          if make -s check-length < 3; then
+            "CV is 2 pages or less"
+            exit 0
+          else
+            echo "CV is too long."
+            exit 1
+          fi
