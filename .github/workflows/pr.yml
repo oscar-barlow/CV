@@ -4,6 +4,7 @@ on:
   pull_request:
   push:
     paths:
+      - ".aspell.en.pws"
       - "CV.tex"
       - "cv.sty"
       - ".github/workflows/publish.yml"
@@ -13,7 +14,7 @@ on:
       - "!master"
 
 jobs:
-  pr-ci:
+  build-check:
     runs-on: ubuntu-latest
 
     steps:
@@ -24,6 +25,15 @@ jobs:
         run: |
           make deps
 
+      - name: Spellcheck
+        run: |
+          if make -s spellcheck; then
+            echo "No spelling mistakes found."
+            exit 0
+          else
+            echo "Spelling mistakes found."
+            exit 1
+          fi
       - name: Set environment vars
         run: |
           echo "DATE=$(date --iso-8601=date)" >> $GITHUB_ENV

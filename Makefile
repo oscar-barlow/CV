@@ -12,7 +12,7 @@ create-pdf:
 
 .PHONY: deps
 deps:
-	sudo apt-get update && sudo apt-get install -y pandoc texlive-latex-recommended texlive-latex-extra texlive-extra-utils
+	sudo apt-get update && sudo apt-get install -y pandoc texlive-latex-recommended texlive-latex-extra texlive-extra-utils aspell
 
 local: create-pdf set-date rename
 
@@ -26,3 +26,7 @@ rename:
 .PHONY: set-date
 set-date:
 	$(eval DATE := $(shell date --iso-8601=date))
+
+.PHONY: spellcheck
+spellcheck:
+	cat CV.tex | aspell list --mode=tex --lang=en_GB-ise --personal=./.aspell.en.pws
