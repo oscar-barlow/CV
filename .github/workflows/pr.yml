@@ -48,7 +48,7 @@ jobs:
 
       - name: Check length
         run: |
-          if make -s check-length < 3; then
+          if make -s check-length FILE_NAME=CV.pdf < 3; then
             "CV is 2 pages or less"
             exit 0
           else

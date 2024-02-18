@@ -9,7 +9,7 @@ clean:
 
 .PHONY: check-length
 check-length:
-	pdfinfo *.pdf | grep Pages | awk '{print $$2}'
+	pdfinfo ./$(FILE_NAME) | grep Pages | awk '{print $$2}'
 
 create-pdf:
 	pdflatex CV.tex
