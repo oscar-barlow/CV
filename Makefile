@@ -16,7 +16,7 @@ create-pdf:
 
 .PHONY: deps
 deps:
-	sudo apt-get update && sudo apt-get install -y pandoc texlive-latex-recommended texlive-latex-extra texlive-extra-utils aspell poppler-utils
+	sudo apt-get update && sudo apt-get install -y pandoc texlive-latex-recommended texlive-latex-extra texlive-extra-utils texlive-fonts-extra aspell poppler-utils
 
 local: create-pdf set-date rename
 
