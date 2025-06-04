@@ -15,6 +15,7 @@ enablement
 explainability
 GCP
 fintech
+IaC
 insuretech
 integrations
 interpretability
@@ -31,3 +32,4 @@ Sainsbury's
 scalable
 scikit
 TeamCity
+Terraform
