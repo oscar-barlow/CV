@@ -27,11 +27,13 @@ jobs:
 
       - name: Spellcheck
         run: |
-          if make -s spellcheck; then
+          SPELLING_ERRORS=$(make -s spellcheck)
+          if [ -z "$SPELLING_ERRORS" ]; then
             echo "No spelling mistakes found."
             exit 0
           else
-            echo "Spelling mistakes found."
+            echo "Spelling mistakes found:"
+            echo "$SPELLING_ERRORS"
             exit 1
           fi
 
