@@ -108,7 +108,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.cv }}-pdf
-          path: Oscar Barlow *.pdf
+          path: Oscar.Barlow.*.pdf
           if-no-files-found: error
 
   publish:

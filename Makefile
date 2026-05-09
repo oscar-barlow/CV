@@ -1,7 +1,7 @@
 CVS := leadership-cv advisory-cv
 PDFS := $(CVS:%=%.pdf)
-LEADERSHIP_RELEASE_PDF := Oscar Barlow Leadership CV $(DATE).pdf
-ADVISORY_RELEASE_PDF := Oscar Barlow Advisory CV $(DATE).pdf
+LEADERSHIP_RELEASE_PDF := Oscar.Barlow.Leadership.CV.$(DATE).pdf
+ADVISORY_RELEASE_PDF := Oscar.Barlow.Advisory.CV.$(DATE).pdf
 
 default: local
 
@@ -11,7 +11,7 @@ ci: spellcheck check-length rename publish
 clean:
 	rm -f $(CVS:%=%.aux) $(CVS:%=%.log) $(CVS:%=%.out)
 	rm -f $(PDFS)
-	rm -f Oscar\ Barlow\ Leadership\ CV\ *.pdf Oscar\ Barlow\ Advisory\ CV\ *.pdf
+	rm -f Oscar.Barlow.Leadership.CV.*.pdf Oscar.Barlow.Advisory.CV.*.pdf
 
 .PHONY: check-length
 check-length: create-pdf
