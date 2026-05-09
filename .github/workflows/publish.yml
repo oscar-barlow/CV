@@ -4,15 +4,75 @@ on:
   push:
     paths:
       - ".aspell.en.pws"
-      - "CV.tex"
-      - "cv.sty"      
+      - "leadership-cv.tex"
+      - "advisory-cv.tex"
+      - "cv.sty"
+      - "Makefile"
       - ".github/workflows/publish.yml"
+      - ".github/workflows/pr.yml"
     branches:
       - master
 
 jobs:
-  publish:
+  detect-cvs:
     runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.detect.outputs.changed }}
+      matrix: ${{ steps.detect.outputs.matrix }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Detect changed CVs
+        id: detect
+        env:
+          PUSH_BEFORE_SHA: ${{ github.event.before }}
+          PUSH_HEAD_SHA: ${{ github.sha }}
+        run: |
+          base="$PUSH_BEFORE_SHA"
+          head="$PUSH_HEAD_SHA"
+
+          if [ -z "$base" ] || printf '%s' "$base" | grep -q '^0\+$'; then
+            files=$(git diff-tree --no-commit-id --name-only -r "$head")
+          else
+            files=$(git diff --name-only "$base" "$head")
+          fi
+
+          echo "Changed files:"
+          echo "$files"
+
+          shared=false
+          if echo "$files" | grep -Eq '^(\.aspell\.en\.pws|cv\.sty|Makefile|\.github/workflows/(publish|pr)\.yml)$'; then
+            shared=true
+          fi
+
+          include=()
+          if [ "$shared" = true ] || echo "$files" | grep -qx 'leadership-cv.tex'; then
+            include+=('{"cv":"leadership-cv","label":"leadership CV"}')
+          fi
+          if [ "$shared" = true ] || echo "$files" | grep -qx 'advisory-cv.tex'; then
+            include+=('{"cv":"advisory-cv","label":"advisory CV"}')
+          fi
+
+          if [ "${#include[@]}" -eq 0 ]; then
+            echo 'changed=false' >> "$GITHUB_OUTPUT"
+            echo 'matrix={"include":[]}' >> "$GITHUB_OUTPUT"
+          else
+            matrix=$(printf '%s\n' "${include[@]}" | paste -sd, -)
+            echo 'changed=true' >> "$GITHUB_OUTPUT"
+            echo "matrix={\"include\":[$matrix]}" >> "$GITHUB_OUTPUT"
+          fi
+
+  build-check:
+    needs: detect-cvs
+    if: needs.detect-cvs.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJSON(needs.detect-cvs.outputs.matrix) }}
 
     steps:
       - name: Checkout code
@@ -22,39 +82,58 @@ jobs:
         run: |
           make deps
 
-      - name: Spellcheck
+      - name: Spellcheck ${{ matrix.label }}
         run: |
-          if make -s spellcheck; then
-            echo "No spelling mistakes found."
-            exit 0
-          else
-            echo "Spelling mistakes found."
-            exit 1
-          fi
-      
-      - name: Create PDF
+          make spellcheck CVS=${{ matrix.cv }}
+
+      - name: Build ${{ matrix.label }}
         run: |
-          make create-pdf
-          
-      - name: Check length
+          make create-pdf CVS=${{ matrix.cv }}
+
+      - name: Check ${{ matrix.label }} length
         run: |
-          PAGES=$(make -s check-length | awk '{print $1}')
-          if [ "$PAGES" -le 2 ]; then
-            echo "CV is 2 pages or less."
-            exit 0
-          else
-            echo "CV is too long."
-            exit 1
-          fi
+          make check-length CVS=${{ matrix.cv }}
 
       - name: Set environment vars
         run: |
-          echo "DATE=$(date --iso-8601=date)" >> $GITHUB_ENV
+          echo "DATE=$(date --iso-8601=date)" >> "$GITHUB_ENV"
 
-      - name: Rename & Publish
+      - name: Rename ${{ matrix.label }} PDF
         run: |
-          make rename
-          make publish
+          make rename CVS=${{ matrix.cv }}
+        env:
+          DATE: ${{ env.DATE }}
+
+      - name: Upload ${{ matrix.label }} PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.cv }}-pdf
+          path: Oscar Barlow *.pdf
+          if-no-files-found: error
+
+  publish:
+    needs:
+      - detect-cvs
+      - build-check
+    if: needs.detect-cvs.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Download PDFs
+        uses: actions/download-artifact@v4
+        with:
+          pattern: "*-pdf"
+          merge-multiple: true
+
+      - name: Set environment vars
+        run: |
+          echo "DATE=$(date --iso-8601=date)" >> "$GITHUB_ENV"
+
+      - name: Publish changed CVs
+        run: |
+          gh release create "$DATE" -t "Oscar Barlow CVs $DATE" -n "Oscar Barlow's changed CVs for $DATE. PDFs are available to download from the links below." ./*.pdf
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DATE: ${{ env.DATE }}
