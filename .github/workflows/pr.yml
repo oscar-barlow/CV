@@ -26,9 +26,11 @@ on:
 jobs:
   detect-cvs:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: read
     outputs:
-      changed: ${{ steps.detect.outputs.changed }}
-      matrix: ${{ steps.detect.outputs.matrix }}
+      cvs: ${{ steps.filter.outputs.changes }}
 
     steps:
       - name: Checkout code
@@ -37,60 +39,34 @@ jobs:
           fetch-depth: 0
 
       - name: Detect changed CVs
-        id: detect
-        env:
-          EVENT_NAME: ${{ github.event_name }}
-          PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
-          PR_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
-          PUSH_BEFORE_SHA: ${{ github.event.before }}
-          PUSH_HEAD_SHA: ${{ github.sha }}
-        run: |
-          if [ "$EVENT_NAME" = "pull_request" ]; then
-            base="$PR_BASE_SHA"
-            head="$PR_HEAD_SHA"
-          else
-            base="$PUSH_BEFORE_SHA"
-            head="$PUSH_HEAD_SHA"
-          fi
-
-          if [ -z "$base" ] || printf '%s' "$base" | grep -q '^0\+$'; then
-            files=$(git diff-tree --no-commit-id --name-only -r "$head")
-          else
-            files=$(git diff --name-only "$base" "$head")
-          fi
-
-          echo "Changed files:"
-          echo "$files"
-
-          shared=false
-          if echo "$files" | grep -Eq '^(\.aspell\.en\.pws|cv\.sty|Makefile|\.github/workflows/(publish|pr)\.yml)$'; then
-            shared=true
-          fi
-
-          include=()
-          if [ "$shared" = true ] || echo "$files" | grep -qx 'leadership-cv.tex'; then
-            include+=('{"cv":"leadership-cv","label":"leadership CV"}')
-          fi
-          if [ "$shared" = true ] || echo "$files" | grep -qx 'advisory-cv.tex'; then
-            include+=('{"cv":"advisory-cv","label":"advisory CV"}')
-          fi
-
-          if [ "${#include[@]}" -eq 0 ]; then
-            echo 'changed=false' >> "$GITHUB_OUTPUT"
-            echo 'matrix={"include":[]}' >> "$GITHUB_OUTPUT"
-          else
-            matrix=$(printf '%s\n' "${include[@]}" | paste -sd, -)
-            echo 'changed=true' >> "$GITHUB_OUTPUT"
-            echo "matrix={\"include\":[$matrix]}" >> "$GITHUB_OUTPUT"
-          fi
+        id: filter
+        uses: dorny/paths-filter@v4
+        with:
+          base: ${{ github.ref }}
+          filters: |
+            leadership-cv:
+              - 'leadership-cv.tex'
+              - '.aspell.en.pws'
+              - 'cv.sty'
+              - 'Makefile'
+              - '.github/workflows/publish.yml'
+              - '.github/workflows/pr.yml'
+            advisory-cv:
+              - 'advisory-cv.tex'
+              - '.aspell.en.pws'
+              - 'cv.sty'
+              - 'Makefile'
+              - '.github/workflows/publish.yml'
+              - '.github/workflows/pr.yml'
 
   build-check:
     needs: detect-cvs
-    if: needs.detect-cvs.outputs.changed == 'true'
+    if: needs.detect-cvs.outputs.cvs != '[]'
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
-      matrix: ${{ fromJSON(needs.detect-cvs.outputs.matrix) }}
+      matrix:
+        cv: ${{ fromJSON(needs.detect-cvs.outputs.cvs) }}
 
     steps:
       - name: Checkout code
@@ -100,14 +76,14 @@ jobs:
         run: |
           make deps
 
-      - name: Spellcheck ${{ matrix.label }}
+      - name: Spellcheck ${{ matrix.cv }}
         run: |
           make spellcheck CVS=${{ matrix.cv }}
 
-      - name: Build ${{ matrix.label }}
+      - name: Build ${{ matrix.cv }}
         run: |
           make create-pdf CVS=${{ matrix.cv }}
 
-      - name: Check ${{ matrix.label }} length
+      - name: Check ${{ matrix.cv }} length
         run: |
           make check-length CVS=${{ matrix.cv }}
