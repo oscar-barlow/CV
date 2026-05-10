@@ -1,31 +1,55 @@
+CVS := leadership-cv advisory-cv
+PDFS := $(CVS:%=%.pdf)
+LEADERSHIP_RELEASE_PDF := Oscar.Barlow.Leadership.CV.$(DATE).pdf
+ADVISORY_RELEASE_PDF := Oscar.Barlow.Advisory.CV.$(DATE).pdf
+
 default: local
 
-ci: create-pdf rename publish
+ci: spellcheck check-length rename publish
 
 .PHONY: clean
 clean:
-	rm CV.aux CV.log
-	rm *.pdf
+	rm -f $(CVS:%=%.aux) $(CVS:%=%.log) $(CVS:%=%.out)
+	rm -f $(PDFS)
+	rm -f Oscar.Barlow.Leadership.CV.*.pdf Oscar.Barlow.Advisory.CV.*.pdf
 
 .PHONY: check-length
-check-length:
-	pdfinfo CV.pdf | grep Pages | awk '{print $$2}'
+check-length: create-pdf
+	@for cv in $(CVS); do \
+		pages=$$(pdfinfo "$$cv.pdf" | awk '/Pages/ {print $$2}'); \
+		echo "$$cv.pdf $$pages"; \
+		if [ "$$pages" -gt 2 ]; then \
+			echo "$$cv.pdf is too long." >&2; \
+			exit 1; \
+		fi; \
+	done
 
-create-pdf:
-	pdflatex CV.tex
+.PHONY: create-pdf
+create-pdf: $(PDFS)
+
+%.pdf: %.tex cv.sty
+	pdflatex $<
 
 .PHONY: deps
 deps:
 	sudo apt-get update && sudo apt-get install -y pandoc texlive-latex-recommended texlive-latex-extra texlive-extra-utils texlive-fonts-extra aspell poppler-utils
 
-local: create-pdf set-date rename
+local: create-pdf check-length set-date rename
 
 .PHONY: publish
 publish:
-	gh release create "$(DATE)" -t "Oscar Barlow CV $(DATE)" -n "Oscar Barlow's CV for $(DATE). A PDF is available to download from the link below." "$(GITHUB_WORKSPACE)/Oscar Barlow CV $(DATE).pdf"
+	gh release create "$(DATE)" -t "Oscar Barlow CVs $(DATE)" -n "Oscar Barlow's CVs for $(DATE). PDFs are available to download from the links below." "$(GITHUB_WORKSPACE)/$(LEADERSHIP_RELEASE_PDF)" "$(GITHUB_WORKSPACE)/$(ADVISORY_RELEASE_PDF)"
 
+.PHONY: rename
 rename:
-	mv "CV.pdf" "Oscar Barlow CV $(DATE).pdf"	
+	@for cv in $(CVS); do \
+		case "$$cv" in \
+			leadership-cv) output="$(LEADERSHIP_RELEASE_PDF)" ;; \
+			advisory-cv) output="$(ADVISORY_RELEASE_PDF)" ;; \
+			*) echo "Unknown CV: $$cv" >&2; exit 1 ;; \
+		esac; \
+		mv "$$cv.pdf" "$$output"; \
+	done
 
 .PHONY: set-date
 set-date:
@@ -33,4 +57,11 @@ set-date:
 
 .PHONY: spellcheck
 spellcheck:
-	cat CV.tex | aspell list --mode=tex --lang=en_GB-ise --personal=./.aspell.en.pws
+	@for cv in $(CVS); do \
+		errors=$$(aspell list --mode=tex --lang=en_GB-ise --personal=./.aspell.en.pws < "$$cv.tex"); \
+		if [ -n "$$errors" ]; then \
+			echo "$$cv.tex spelling errors:"; \
+			echo "$$errors"; \
+			exit 1; \
+		fi; \
+	done
