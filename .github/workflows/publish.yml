@@ -108,7 +108,7 @@ jobs:
         uses: actions/checkout@v5
 
       - name: Download PDFs
-        uses: actions/download-artifact@v7
+        uses: actions/download-artifact@v8
         with:
           pattern: "*-pdf"
           merge-multiple: true
