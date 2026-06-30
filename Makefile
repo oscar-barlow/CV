@@ -1,7 +1,8 @@
-CVS := leadership-cv advisory-cv
+CVS := leadership-cv advisory-cv consultant-cv
 PDFS := $(CVS:%=%.pdf)
 LEADERSHIP_RELEASE_PDF := Oscar.Barlow.Leadership.CV.$(DATE).pdf
 ADVISORY_RELEASE_PDF := Oscar.Barlow.Advisory.CV.$(DATE).pdf
+CONSULTANT_RELEASE_PDF := Oscar.Barlow.Consultant.CV.$(DATE).pdf
 
 default: local
 
@@ -11,7 +12,7 @@ ci: spellcheck check-length rename publish
 clean:
 	rm -f $(CVS:%=%.aux) $(CVS:%=%.log) $(CVS:%=%.out)
 	rm -f $(PDFS)
-	rm -f Oscar.Barlow.Leadership.CV.*.pdf Oscar.Barlow.Advisory.CV.*.pdf
+	rm -f Oscar.Barlow.Leadership.CV.*.pdf Oscar.Barlow.Advisory.CV.*.pdf Oscar.Barlow.Consultant.CV.*.pdf
 
 .PHONY: check-length
 check-length: create-pdf
@@ -38,7 +39,7 @@ local: create-pdf check-length set-date rename
 
 .PHONY: publish
 publish:
-	gh release create "$(DATE)" -t "Oscar Barlow CVs $(DATE)" -n "Oscar Barlow's CVs for $(DATE). PDFs are available to download from the links below." "$(GITHUB_WORKSPACE)/$(LEADERSHIP_RELEASE_PDF)" "$(GITHUB_WORKSPACE)/$(ADVISORY_RELEASE_PDF)"
+	gh release create "$(DATE)" -t "Oscar Barlow CVs $(DATE)" -n "Oscar Barlow's CVs for $(DATE). PDFs are available to download from the links below." "$(GITHUB_WORKSPACE)/$(LEADERSHIP_RELEASE_PDF)" "$(GITHUB_WORKSPACE)/$(ADVISORY_RELEASE_PDF)" "$(GITHUB_WORKSPACE)/$(CONSULTANT_RELEASE_PDF)"
 
 .PHONY: rename
 rename:
@@ -46,6 +47,7 @@ rename:
 		case "$$cv" in \
 			leadership-cv) output="$(LEADERSHIP_RELEASE_PDF)" ;; \
 			advisory-cv) output="$(ADVISORY_RELEASE_PDF)" ;; \
+			consultant-cv) output="$(CONSULTANT_RELEASE_PDF)" ;; \
 			*) echo "Unknown CV: $$cv" >&2; exit 1 ;; \
 		esac; \
 		mv "$$cv.pdf" "$$output"; \
