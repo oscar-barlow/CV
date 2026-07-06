@@ -22,7 +22,7 @@ on:
       - ".github/workflows/publish.yml"
       - ".github/workflows/pr.yml"
     branches:
-      - "*"
+      - "**"
       - "!master"
 
 jobs:
