@@ -3,6 +3,9 @@ PDFS := $(CVS:%=%.pdf)
 LEADERSHIP_RELEASE_PDF := Oscar.Barlow.Leadership.CV.$(DATE).pdf
 ADVISORY_RELEASE_PDF := Oscar.Barlow.Advisory.CV.$(DATE).pdf
 CONSULTANT_RELEASE_PDF := Oscar.Barlow.Consultant.CV.$(DATE).pdf
+LEADERSHIP_MAX_PAGES := 2
+ADVISORY_MAX_PAGES := 1
+CONSULTANT_MAX_PAGES := 1
 
 default: local
 
@@ -17,9 +20,15 @@ clean:
 .PHONY: check-length
 check-length: create-pdf
 	@for cv in $(CVS); do \
+		case "$$cv" in \
+			leadership-cv) max="$(LEADERSHIP_MAX_PAGES)" ;; \
+			advisory-cv) max="$(ADVISORY_MAX_PAGES)" ;; \
+			consultant-cv) max="$(CONSULTANT_MAX_PAGES)" ;; \
+			*) echo "Unknown CV: $$cv" >&2; exit 1 ;; \
+		esac; \
 		pages=$$(pdfinfo "$$cv.pdf" | awk '/Pages/ {print $$2}'); \
-		echo "$$cv.pdf $$pages"; \
-		if [ "$$pages" -gt 2 ]; then \
+		echo "$$cv.pdf $$pages (max $$max)"; \
+		if [ "$$pages" -gt "$$max" ]; then \
 			echo "$$cv.pdf is too long." >&2; \
 			exit 1; \
 		fi; \
