@@ -6,6 +6,7 @@ on:
       - ".aspell.en.pws"
       - "leadership-cv.tex"
       - "advisory-cv.tex"
+      - "consultant-cv.tex"
       - "cv.sty"
       - "Makefile"
       - ".github/workflows/publish.yml"
@@ -15,6 +16,7 @@ on:
       - ".aspell.en.pws"
       - "leadership-cv.tex"
       - "advisory-cv.tex"
+      - "consultant-cv.tex"
       - "cv.sty"
       - "Makefile"
       - ".github/workflows/publish.yml"
@@ -53,6 +55,13 @@ jobs:
               - '.github/workflows/pr.yml'
             advisory-cv:
               - 'advisory-cv.tex'
+              - '.aspell.en.pws'
+              - 'cv.sty'
+              - 'Makefile'
+              - '.github/workflows/publish.yml'
+              - '.github/workflows/pr.yml'
+            consultant-cv:
+              - 'consultant-cv.tex'
               - '.aspell.en.pws'
               - 'cv.sty'
               - 'Makefile'
